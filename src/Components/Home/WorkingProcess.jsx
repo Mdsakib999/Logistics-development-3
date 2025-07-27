@@ -56,7 +56,7 @@ export const WorkingProcess = () => {
         {menuItems.map((item, index) => {
           return (
             <div className="relative">
-              <div className="flex flex-col  gap-3 max-w-64">
+              <div className="flex flex-col gap-3 max-w-64 mx-auto">
                 <div className="flex items-center justify-center">
                   <div className="rounded-full p-2 bg-primary w-18 h-18 flex items-center justify-center">
                     <img
