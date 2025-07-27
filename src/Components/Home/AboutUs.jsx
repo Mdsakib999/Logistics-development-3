@@ -68,7 +68,7 @@ export const AboutUs = () => {
                 <div className="bg-primary w-8 h-8 rounded-full flex items-center justify-center p-1">
                   <FaCheck className="text-white" />
                 </div>
-                <div className="text-md text-start md:text-center">
+                <div className="text-md text-start">
                   <p className="font-semibold">
                     {inView ? (
                       <CountUp start={0} end={400} duration={2.5} />
