@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import InfoBar from "./InfoBar";
-import { NavLink, useLocation } from "react-router-dom";
-import { HiMenuAlt3, HiX } from "react-icons/hi";
+import { Link, NavLink, useLocation } from "react-router-dom";
+import { HiMenu, HiX } from "react-icons/hi";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
+import Logo from "/assets/Logo.png";
 
 export default function Navbar() {
   const [isTransparent, setIsTransparent] = useState(true);
@@ -106,13 +107,22 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="lg:hidden">
+          <div className="lg:hidden flex items-center justify-between w-full">
+            <div className="hidden md:block"></div>
+            {/* Logo */}
+            <Link to="/" className="shrink-0 md:hidden">
+              <img
+                src={Logo}
+                alt="Transit Logo"
+                className="w-24 h-12 object-cover"
+              />
+            </Link>
             <button
               onClick={toggleMobileMenu}
-              className="text-3xl text-white"
+              className="text-3xl text-white "
               aria-label="Toggle Menu"
             >
-              {isMobileMenuOpen ? <HiX /> : <HiMenuAlt3 />}
+              {isMobileMenuOpen ? <HiX /> : <HiMenu />}
             </button>
           </div>
         </div>

@@ -6,7 +6,7 @@ import Logo from "/assets/Logo.png";
 const InfoBar = () => {
   return (
     <div className="bg-primary text-white text-[10px] sm:text-xs md:text-sm">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between md:items-center px-3 sm:px-4 md:px-6 py-3 md:py-5 md:gap-4">
+      <div className="max-w-7xl mx-auto hidden md:flex flex-col md:flex-row justify-between md:items-center px-3 sm:px-4 md:px-6 py-3 md:py-5 md:gap-4">
         {/* Logo */}
         <Link to="/" className="shrink-0">
           <img
