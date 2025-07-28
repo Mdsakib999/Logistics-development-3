@@ -1,10 +1,15 @@
 import { AllBlog } from "../Components/Blogs/AllBlog";
-import { BlogBanner } from "../Components/Blogs/BlogBanner";
+import { PageBanner } from "../Components/SharedComponent/PageBanner";
+import BlogsBannerImg from "/assets/Banner/BlogsBanner.jpg";
 
 export const Blogs = () => {
   return (
     <div>
-      <BlogBanner />
+      <PageBanner
+        backgroundImage={BlogsBannerImg}
+        heading="Services"
+        title="Our Logistic Services"
+      />{" "}
       <AllBlog />
     </div>
   );

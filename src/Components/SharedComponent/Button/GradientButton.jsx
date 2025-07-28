@@ -17,7 +17,7 @@ export const GradientButton = ({
         ${className}
       `}
     >
-      {/* Shiny shimmer overlay */}
+      {/* Shimmer overlay */}
       <span
         className="
           absolute inset-0 w-full h-full
@@ -28,13 +28,20 @@ export const GradientButton = ({
         "
       ></span>
 
-      {/* Quarter circle glow */}
-      <div className="absolute -right-12 -bottom-15 w-24 h-24 bg-white rounded-l-full group-hover:opacity-70 z-0"></div>
+      {/* Quarter circle - turns yellow on parent group hover */}
+      <div
+        className="
+          absolute bottom-0 right-0 w-6 h-6 sm:w-8 sm:h-8
+          rounded-tl-full
+          bg-white group-hover:bg-[#F9C923]
+          transition-colors duration-300 z-0
+        "
+      ></div>
 
       {/* Button text */}
       <span className="relative z-10">{children}</span>
 
-      {/* Subtle glow layer */}
+      {/* Optional subtle glow */}
       <div className="absolute inset-0 bg-white opacity-0 hover:opacity-10 transition-opacity duration-300 z-0" />
     </button>
   );
