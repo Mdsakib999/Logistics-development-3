@@ -7,6 +7,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaCheck } from "react-icons/fa";
 import miniCar from "/assets/About/miniCar.png";
 import { FaPersonChalkboard } from "react-icons/fa6";
+import { PrimaryButton } from "../SharedComponent/Button/PrimaryButton";
 export const AboutUs = () => {
   const { ref, inView } = useInView({ triggerOnce: false });
 
@@ -86,11 +87,11 @@ export const AboutUs = () => {
 
           {/* Buttons */}
           <div className="flex gap-4 pt-6 justify-center lg:justify-start">
-            <button className="bg-primary text-white px-6 py-2 rounded-2xl flex items-center gap-2 text-sm">
+            <PrimaryButton className="px-6 py-2 rounded-2xl text-sm">
               Contact Us
               <MdKeyboardArrowRight className="w-5 h-5" />
-            </button>
-            <button className="border border-primary text-black px-6 py-2 rounded-2xl flex items-center gap-2 text-sm">
+            </PrimaryButton>
+            <button className="border border-primary text-black px-6 py-2 rounded-2xl flex items-center gap-2 text-sm cursor-pointer hover:bg-[#133FAE] hover:border-blue-500 hover:text-white">
               Request a Quote
               <MdKeyboardArrowRight className="w-5 h-5" />
             </button>

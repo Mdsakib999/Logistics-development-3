@@ -8,6 +8,7 @@ import {
   FaPhone,
 } from "react-icons/fa";
 import { HeadingInfo } from "../SharedComponent/HeadingInfo";
+import { PrimaryButton } from "../SharedComponent/Button/PrimaryButton";
 
 export const GetInTouch = () => {
   const [formData, setFormData] = useState({
@@ -155,12 +156,9 @@ export const GetInTouch = () => {
             </div>
 
             {/* Submit Button */}
-            <button
-              type="submit"
-              className="bg-primary text-white px-8 py-3 rounded-md font-medium hover:bg-primary/90 transition-colors max-w-fit"
-            >
+            <PrimaryButton type="submit" className="w-fit">
               Send Message
-            </button>
+            </PrimaryButton>
           </form>
         </div>
 
