@@ -14,7 +14,7 @@ export const Solution = () => {
         <img
           src={deliveryCar}
           alt="Delivery Car"
-          className="w-40 md:w-60 h-auto"
+          className="w-40 md:w-60 lg:w-full h-auto"
         />
       </div>
 
