@@ -21,7 +21,7 @@ export const Solution = () => {
       {/* Main Layout Wrapper */}
       <div className="mt-8 relative flex items-center min-h-[400px] lg:min-h-[600px]">
         {/* Background Text Card */}
-        <div className="absolute z-10 w-64 h-72 md:w-96 md:h-96 right-0 md:right-5 lg:right-0 bottom-0 md:-bottom-10 lg:w-full lg:min-h-[400px] max-w-[700px] bg-primary rounded py-10 px-8 flex justify-center items-center">
+        <div className="absolute z-10 w-64 h-72 md:w-96 md:h-96 right-0 md:-right-3 lg:right-0 bottom-0 md:-bottom-10 lg:w-full lg:min-h-[400px] max-w-[700px] bg-primary rounded py-10 px-8 flex justify-center items-center">
           <div className="text-white space-y-6 w-full lg:max-w-md">
             <div className="space-y-3">
               <h1 className="lg:text-3xl font-bold">Logistic Solutions</h1>
