@@ -113,7 +113,7 @@ export default function Footer() {
       <div className="border-t border-white/20 text-white/60 text-xs py-4">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
           <p>Terms and Condition</p>
-          <p>© 2025 designed by LaZyFee</p>
+          <p>© 2025 SM IT || All rights reserved</p>
           <p>Privacy policy</p>
         </div>
       </div>
