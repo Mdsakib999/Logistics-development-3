@@ -45,7 +45,7 @@ contact@yourname.com`,
       </p>
 
       {/* Contact Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 mt-16">
         {menuItems.map((item) => (
           <div
             key={item.id}

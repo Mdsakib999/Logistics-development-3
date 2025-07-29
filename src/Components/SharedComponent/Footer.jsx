@@ -112,9 +112,15 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-white/20 text-white/60 text-xs py-4">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
-          <p>Terms and Condition</p>
-          <p>© 2025 SM IT || All rights reserved</p>
-          <p>Privacy policy</p>
+          <p className="cursor-pointer hover:text-white transition-colors">
+            Terms and Condition
+          </p>
+          <p className="cursor-default text-white/40">
+            © 2025 SM IT || All rights reserved
+          </p>
+          <p className="cursor-pointer hover:text-white transition-colors">
+            Privacy Policy
+          </p>
         </div>
       </div>
     </footer>
