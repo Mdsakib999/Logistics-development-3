@@ -52,7 +52,7 @@ export const ShortBrief = () => {
         </div>
 
         {/* Navigation buttons */}
-        <div className="absolute left-0 top-[40%] md:top-[53%] lg:bottom-0">
+        <div className="absolute left-0 top-[40%] md:top-[53%] lg:top-[80%]">
           <div className="flex justify-center mt-8">
             <button
               onClick={prevSlide}

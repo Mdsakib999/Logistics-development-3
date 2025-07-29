@@ -2,6 +2,7 @@ import { LuArrowUpRight } from "react-icons/lu";
 import { BlogData } from "../../FakeDb/Blog";
 import { HeadingInfo } from "../SharedComponent/HeadingInfo";
 import { FaClock, FaCalendarAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const OurBlog = () => {
   return (
@@ -14,7 +15,8 @@ export const OurBlog = () => {
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {BlogData.slice(0, 3).map((blog) => (
-          <div
+          <Link
+            to={`/blog/${blog.id}`}
             key={blog.id}
             className="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden flex flex-col"
           >
@@ -37,19 +39,20 @@ export const OurBlog = () => {
               <h3 className="text-lg font-semibold">{blog.title}</h3>
               <p className="text-gray-600 text-sm">{blog.desc}</p>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
 
       <div className="flex items-center justify-end mt-6">
-        <button
+        <Link
+          to={"/blog"}
           className="group relative overflow-hidden px-5 py-2 font-semibold text-md text-white
           bg-gradient-to-r from-[#133FAE] to-[#172A5B]
           transition-all duration-300 ease-in-out
           hover:shadow-[0_0_25px_#1f3db7] rounded flex items-center gap-2"
         >
           More Blog <span>|</span> <LuArrowUpRight className="w-5 h-5" />
-        </button>
+        </Link>
       </div>
     </div>
   );

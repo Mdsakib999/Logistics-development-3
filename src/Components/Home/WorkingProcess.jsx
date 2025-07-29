@@ -73,7 +73,7 @@ export const WorkingProcess = () => {
                 </p>
               </div>
               {[1, 2, 4].includes(index) && (
-                <div className="hidden lg:block absolute top-1/2 -left-20 transform -translate-x-1/2 -translate-y-1/2">
+                <div className="hidden lg:block absolute top-1/2 -left-15 transform -translate-x-1/2 -translate-y-1/2">
                   <img src={arrow} alt="" className="w-24 h-24" />
                 </div>
               )}
