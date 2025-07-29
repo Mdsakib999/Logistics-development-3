@@ -75,7 +75,7 @@ export const SupplyChain = () => {
         {menuItems.map((item) => (
           <div
             key={item.id}
-            className="bg-primary text-white p-6 rounded-lg flex flex-col justify-between gap-6 py-12"
+            className="bg-primary text-white p-6 rounded-lg flex flex-col justify-between gap-6 py-12 group"
           >
             <div className="bg-yellow-400 rounded h-14 w-18 flex items-center justify-center ">
               <img src={item.img} alt={item.title} className="" />
@@ -88,7 +88,7 @@ export const SupplyChain = () => {
                 ))}
               </ul>
             </div>
-            <button className="mt-6 bg-white text-blue-900 font-semibold py-2 px-4 rounded-full">
+            <button className="mt-6 bg-white group-hover:bg-yellow-400 text-blue-900 group-hover:text-white font-semibold py-2 px-4 rounded-full">
               Get Free Quote
             </button>
           </div>
