@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import { HeadingInfo } from "../SharedComponent/HeadingInfo";
 import { PrimaryButton } from "../SharedComponent/Button/PrimaryButton";
+import { GradientButton } from "../SharedComponent/Button/GradientButton";
 
 export const GetInTouch = () => {
   const [formData, setFormData] = useState({
@@ -156,9 +157,9 @@ export const GetInTouch = () => {
             </div>
 
             {/* Submit Button */}
-            <PrimaryButton type="submit" className="w-fit">
+            <GradientButton type="submit" className="w-fit">
               Send Message
-            </PrimaryButton>
+            </GradientButton>
           </form>
         </div>
 

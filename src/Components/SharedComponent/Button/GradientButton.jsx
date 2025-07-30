@@ -33,7 +33,7 @@ export const GradientButton = ({
         className="
           absolute bottom-0 right-0 w-6 h-6 sm:w-8 sm:h-8
           rounded-tl-full
-          bg-white group-hover:bg-[#F9C923]
+          bg-gray-100 group-hover:bg-[#F9C923]
           transition-colors duration-300 z-0
         "
       ></div>

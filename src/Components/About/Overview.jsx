@@ -2,6 +2,7 @@ import { useState } from "react";
 import { HeadingInfo } from "../SharedComponent/HeadingInfo";
 import img1 from "/assets/About/truck.jpg";
 import img2 from "/assets/About/deliveryBoy.jpg";
+import { GradientButton } from "../SharedComponent/Button/GradientButton";
 
 export const Overview = () => {
   const [activeTab, setActiveTab] = useState("approach");
@@ -87,9 +88,7 @@ export const Overview = () => {
 
           {/* Learn More Button */}
           <div className="pt-4">
-            <button className="bg-primary text-white px-6 py-3 rounded font-medium hover:bg-blue-800 transition-colors duration-200">
-              Learn More
-            </button>
+            <GradientButton>Learn More</GradientButton>
           </div>
         </div>
       </div>

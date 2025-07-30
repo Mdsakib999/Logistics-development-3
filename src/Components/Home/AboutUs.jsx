@@ -8,6 +8,7 @@ import { FaCheck } from "react-icons/fa";
 import miniCar from "/assets/About/miniCar.png";
 import { FaPersonChalkboard } from "react-icons/fa6";
 import { PrimaryButton } from "../SharedComponent/Button/PrimaryButton";
+import { GradientButton } from "../SharedComponent/Button/GradientButton";
 export const AboutUs = () => {
   const { ref, inView } = useInView({ triggerOnce: false });
 
@@ -87,20 +88,25 @@ export const AboutUs = () => {
 
           {/* Buttons */}
           <div className="flex gap-4 pt-6 justify-center lg:justify-start">
-            <PrimaryButton className="px-6 py-2 rounded-2xl text-sm">
-              Contact Us
-              <MdKeyboardArrowRight className="w-5 h-5" />
-            </PrimaryButton>
-            <button className="border border-primary text-black px-6 py-2 rounded-2xl flex items-center gap-2 text-sm cursor-pointer hover:bg-[#133FAE] hover:border-blue-500 hover:text-white">
-              Request a Quote
-              <MdKeyboardArrowRight className="w-5 h-5" />
-            </button>
+            <GradientButton>
+              <div className="flex items-center gap-2">
+                Contact Us
+                <MdKeyboardArrowRight className="w-5 h-5" />
+              </div>
+            </GradientButton>
+
+            <GradientButton>
+              <div className=" flex items-center">
+                Request a Quote
+                <MdKeyboardArrowRight className="w-5 h-5" />
+              </div>
+            </GradientButton>
           </div>
         </div>
       </div>
 
       {/* Bottom Mini Vehicle */}
-      <div className="absolute -bottom-4 md:bottom-0 lg:bottom-6 right-0 lg:right-6">
+      <div className="absolute -bottom-4 md:bottom-0 lg:bottom-0 right-0 ">
         <img src={miniCar} alt="Mini Car" className="w-36 h-auto" />
       </div>
     </div>
