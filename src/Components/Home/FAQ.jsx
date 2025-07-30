@@ -4,6 +4,7 @@ import { HeadingInfo } from "../SharedComponent/HeadingInfo";
 import TruckImg from "/assets/Truck.png";
 import { faqData } from "../../FakeDb/FAQData";
 import { Link } from "react-router-dom";
+import { GradientButton } from "../SharedComponent/Button/GradientButton";
 
 export const FAQ = () => {
   const [openFAQ, setOpenFAQ] = useState(null);
@@ -28,15 +29,12 @@ export const FAQ = () => {
             through our comprehensive FAQ section. We address common questions
             and provide expert guidance.
           </p>
-
-          <Link
-            to={"/contact"}
-            className="bg-primary text-white px-6 py-2 rounded-full flex items-center gap-2 text-sm w-fit hover:bg-primary-dark transition"
-          >
-            Contact Us
-            <MdKeyboardArrowRight className="w-5 h-5" />
-          </Link>
-
+          <GradientButton className="w-fit">
+            <Link to={"/contact"} className="flex items-center gap-2">
+              Contact Us
+              <MdKeyboardArrowRight className="w-5 h-5" />
+            </Link>
+          </GradientButton>
           <div className="mt-6">
             <img
               src={TruckImg}

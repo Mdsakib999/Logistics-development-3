@@ -1,3 +1,4 @@
+import { GradientButton } from "../SharedComponent/Button/GradientButton";
 import { PrimaryButton } from "../SharedComponent/Button/PrimaryButton";
 
 export const Help = () => {
@@ -9,7 +10,7 @@ export const Help = () => {
         contact you to discuss your warehousing, distribution, air, ocean
         freight or any other logistics needs.
       </p>
-      <PrimaryButton>Contact</PrimaryButton>
+      <GradientButton>Contact</GradientButton>
     </div>
   );
 };
