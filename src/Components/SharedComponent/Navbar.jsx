@@ -173,7 +173,7 @@ export default function Navbar() {
                     className={({ isActive }) =>
                       `block transition-all duration-300 ${
                         isActive
-                          ? "text-primary font-semibold"
+                          ? "text-primary font-bold"
                           : "text-gray-800"
                       }`
                     }

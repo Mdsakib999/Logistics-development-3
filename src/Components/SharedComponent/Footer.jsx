@@ -13,7 +13,7 @@ export default function Footer() {
       {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 py-10 flex flex-col md:flex-row justify-between md:gap-32">
         {/* Left Side: Logo & Social */}
-        <div className="flex md:flex-col items-center md:items-start gap-6">
+        <div className="flex flex-col items-center md:items-start">
           <img src={Logo} alt="Transit Logo" className="w-40 h-auto" />
           <div className="flex gap-3">
             {[FaFacebookF, FaXTwitter, FaInstagram, FaYoutube].map(
@@ -31,16 +31,16 @@ export default function Footer() {
         </div>
 
         {/* Right Side: Newsletter + Links */}
-        <div className="flex-1 flex flex-col gap-6">
+        <div className="flex-1 flex flex-col gap-6 mt-10 md:mt-0">
           {/* Newsletter */}
           <div className="grid lg:grid-cols-2 items-center gap-6">
             <h2 className="text-2xl font-semibold leading-snug text-center md:text-left">
               Subscribe to <br />
               Our Newsletter
             </h2>
-            <div className="flex justify-center md:justify-start">
+            <div className="md:flex justify-center md:justify-start hidden">
               <div className="relative">
-                <div className="flex bg-white rounded-2xl shadow-lg overflow-hidden">
+                <div className="flex bg-white rounded-2xl shadow-lg ">
                   <input
                     type="email"
                     placeholder="Enter Your Email Address"

@@ -64,7 +64,7 @@ export const PricingSection = () => {
           return (
             <div
               key={item.id}
-              className="group  lg:w-72 rounded p-6 flex flex-col justify-between items-center text-center shadow-sm transition duration-300 bg-[#DADADA]/20  hover:bg-primary hover:text-white"
+              className="group  lg:w-72 rounded p-6 flex flex-col my-5 md:my-0 justify-between items-center text-center shadow-sm transition duration-300 bg-[#DADADA]/20  hover:bg-primary hover:text-white "
             >
               <div className="w-full space-y-4 mb-4">
                 <h3 className="text-xl font-medium">{item.title}</h3>

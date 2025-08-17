@@ -51,10 +51,10 @@ export const Offer = () => {
         and flexibility
       </h1>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 my-5">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 my-5 px-6 md:px-0">
         {menuItems.map((item) => {
           return (
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 ">
               <img
                 src={item.img}
                 alt={item.title}
