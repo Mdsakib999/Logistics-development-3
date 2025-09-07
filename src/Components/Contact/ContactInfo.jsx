@@ -7,23 +7,21 @@ export const ContactInfo = () => {
     {
       id: 1,
       title: "Visit Our Office",
-      description: `930 Hilgard Ave, 
-      Los Angeles, 
-      CA 90024, United States`,
+      description: `Keuperstr. 20, 73734
+       Esslingen`,
       icon: <FaHome />,
     },
     {
       id: 2,
       title: "Give us a call",
-      description: `(406) 555-0120
-(407) 222-0456`,
+      description: `+49 15679697580`,
       icon: <FaPhoneAlt />,
     },
     {
       id: 3,
       title: "Chat with us",
       description: `hello@yourdomain.com
-contact@yourname.com`,
+`,
       icon: <IoMailUnreadSharp />,
     },
   ];

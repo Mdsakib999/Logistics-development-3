@@ -13,6 +13,7 @@
 .bb {
   border: 2px solid red;
 }
+
 @keyframes shimmer {
   0% {
     transform: translateX(-100%) rotate(12deg);

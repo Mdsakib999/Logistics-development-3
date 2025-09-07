@@ -4,7 +4,7 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
-import Logo from "/assets/Logo.png";
+import Logo from "/assets/Struck-meierlogo.png";
 
 export default function Navbar() {
   const [isTransparent, setIsTransparent] = useState(true);
@@ -70,9 +70,9 @@ export default function Navbar() {
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
     { name: "Service", path: "/services" },
-    { name: "Pricing", path: "/pricing" },
+    // { name: "Pricing", path: "/pricing" },
     { name: "Contact", path: "/contact" },
-    { name: "Blogs", path: "/blog" },
+    // { name: "Blogs", path: "/blog" },
   ];
 
   return (
@@ -87,7 +87,7 @@ export default function Navbar() {
 
       <div
         className={`transition-all duration-200 ${
-          showInfoBar ? "mt-0" : "mt-[-120px]"
+          showInfoBar ? "mt-0" : "mt-[-90px]"
         }`}
       >
         <nav
@@ -150,7 +150,7 @@ export default function Navbar() {
                 <img
                   src={Logo}
                   alt="Transit Logo"
-                  className="w-24 h-12 object-cover"
+                  className="max-w-[150px]"
                 />
               </Link>
               <button

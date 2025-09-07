@@ -12,7 +12,7 @@ export const GradientButton = ({
         group relative overflow-hidden px-10 py-4 font-semibold text-lg text-white
         bg-gradient-to-r from-[#133FAE] to-[#172A5B]
         transition-all duration-300 ease-in-out
-        hover:shadow-[0_0_25px_#1f3db7]
+        hover:shadow-[0_0_10px_#1f3db7]
         disabled:opacity-50 disabled:cursor-not-allowed
         ${className}
       `}

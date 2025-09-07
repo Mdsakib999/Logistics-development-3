@@ -3,9 +3,11 @@ import {
   FaInstagram,
   FaYoutube,
   FaXTwitter,
+  FaLocationDot,
 } from "react-icons/fa6";
-import Logo from "/assets/Logo.png";
+import Logo from "/assets/Struck-meierlogo.png";
 import { NavLink } from "react-router-dom";
+import { FaEnvelope, FaPhone } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -14,8 +16,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-10 flex flex-col md:flex-row justify-between md:gap-32">
         {/* Left Side: Logo & Social */}
         <div className="flex flex-col items-center md:items-start">
-          <img src={Logo} alt="Transit Logo" className="w-40 h-auto" />
-          <div className="flex gap-3">
+          <img src={Logo} alt="Transit Logo" className="max-w-[200px]" />
+          <p className="md:max-w-[200px] mt-4 italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci reprehenderit minima  </p>
+          <div className="flex gap-3 mt-6">
             {[FaFacebookF, FaXTwitter, FaInstagram, FaYoutube].map(
               (Icon, i) => (
                 <div
@@ -33,7 +36,7 @@ export default function Footer() {
         {/* Right Side: Newsletter + Links */}
         <div className="flex-1 flex flex-col gap-6 mt-10 md:mt-0">
           {/* Newsletter */}
-          <div className="grid lg:grid-cols-2 items-center gap-6">
+          {/* <div className="grid lg:grid-cols-2 items-center gap-6 bb">
             <h2 className="text-2xl font-semibold leading-snug text-center md:text-left">
               Subscribe to <br />
               Our Newsletter
@@ -52,7 +55,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Divider */}
           <div className="border-b border-white/20"></div>
@@ -61,15 +64,15 @@ export default function Footer() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {/* Useful Links */}
             <div>
-              <h3 className="font-semibold text-blue-500 mb-3 text-xl">
+              <h3 className="font-semibold text-white mb-3 text-xl">
                 Useful Links
               </h3>
-              <ul className="space-y-2 text-sm">
+              <ul className="space-y-1 text-lg">
                 {[
                   { label: "Home", to: "/" },
                   { label: "About us", to: "/about" },
                   { label: "Services", to: "/services" },
-                  { label: "Pricing", to: "/pricing" },
+                  { label: "Terms Privacy Policy", to: "/" },
                   { label: "Contact", to: "/contact" },
                 ].map((link) => (
                   <li key={link.label}>
@@ -91,7 +94,7 @@ export default function Footer() {
 
             {/* Working Hours */}
             <div>
-              <h3 className="font-semibold text-white mb-3">Working Hours</h3>
+              <h3 className="font-semibold text-white text-xl mb-3">Working Hours</h3>
               <ul className="space-y-1">
                 <li>Mon to Fri: 9:00 AM - 5:00 PM</li>
                 <li>Saturday: 10:00 AM - 6:00 PM</li>
@@ -101,9 +104,41 @@ export default function Footer() {
 
             {/* Contact Info */}
             <div>
-              <h3 className="font-semibold text-white mb-3">Say Hello</h3>
-              <p>contact@transit.com</p>
-              <p>+1 212 425 8617</p>
+              
+              <div className="flex items-center gap-2 mb-4">
+              <div className="w-8 h-1 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full"></div>
+              <h3 className="text-xl lg:text-xl font-bold text-white">
+                FOLGE UNS
+              </h3>
+            </div>
+             <div className="space-y-3 w-full">
+              <div className="flex items-center justify-start gap-3 group">
+                <div className="p-2 bg-blue-500/10 rounded-full group-hover:bg-blue-500/20 transition-colors">
+                  <FaLocationDot size={18} className="text-white" />
+                </div>
+                <span className="text-gray-300 text-sm lg:text-base">
+                  Boschstr. 4, 67304 Eisenberg, Deutschland
+                </span>
+              </div>
+
+              <div className="flex items-center justify-start gap-3 group">
+                <div className="p-2 bg-blue-500/10 rounded-full group-hover:bg-blue-500/20 transition-colors">
+                  <FaPhone size={18} className="text-white" />
+                </div>
+                <span className="text-gray-300 text-sm lg:text-base">
+                  +4915679697580
+                </span>
+              </div>
+
+              <div className="flex items-center justify-start gap-3 group">
+                <div className="p-2 bg-blue-500/10 rounded-full group-hover:bg-blue-500/20 transition-colors">
+                  <FaEnvelope size={18} className="text-white" />
+                </div>
+                <span className="text-gray-300 text-sm lg:text-base">
+                  transport@bernhardlogistik.de
+                </span>
+              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -111,16 +146,12 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="border-t border-white/20 text-white/60 text-xs py-4">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
-          <p className="cursor-pointer hover:text-white transition-colors">
-            Terms and Condition
+        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-center items-center gap-2 text-center sm:text-left">
+
+          <p className="cursor-default text-white/60 hover:text-white">
+            © 2025 Spedition Struckmeier || All rights reserved
           </p>
-          <p className="cursor-default text-white/40">
-            © 2025 SM IT || All rights reserved
-          </p>
-          <p className="cursor-pointer hover:text-white transition-colors">
-            Privacy Policy
-          </p>
+
         </div>
       </div>
     </footer>

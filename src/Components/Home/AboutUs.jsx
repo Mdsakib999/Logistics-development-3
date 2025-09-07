@@ -95,12 +95,12 @@ export const AboutUs = () => {
               </div>
             </GradientButton>
 
-            <GradientButton>
+            {/* <GradientButton>
               <div className=" flex items-center">
                 Request a Quote
                 <MdKeyboardArrowRight className="w-5 h-5" />
               </div>
-            </GradientButton>
+            </GradientButton> */}
           </div>
         </div>
       </div>

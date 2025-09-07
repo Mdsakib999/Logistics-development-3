@@ -18,14 +18,14 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
-      {
-        path: "/blog",
-        element: <Blogs />,
-      },
-      {
-        path: "/blog/:id",
-        element: <BlogDetails />,
-      },
+      // {
+      //   path: "/blog",
+      //   element: <Blogs />,
+      // },
+      // {
+      //   path: "/blog/:id",
+      //   element: <BlogDetails />,
+      // },
       {
         path: "/about",
         element: <About />,
@@ -38,10 +38,10 @@ export const router = createBrowserRouter([
         path: "/services",
         element: <Services />,
       },
-      {
-        path: "/pricing",
-        element: <Pricing />,
-      },
+      // {
+      //   path: "/pricing",
+      //   element: <Pricing />,
+      // },
     ],
   },
   {

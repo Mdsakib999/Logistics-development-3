@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaPhoneAlt, FaRegClock } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import Logo from "/assets/Logo.png";
+import Logo from "/assets/Struck-meierlogo.png";
 
 const InfoBar = () => {
   return (
@@ -12,7 +12,7 @@ const InfoBar = () => {
           <img
             src={Logo}
             alt="Transit Logo"
-            className="w-24 h-24 md:w-40 md:h-20 object-cover"
+            className="max-w-[200px]"
           />
         </Link>
 
@@ -47,7 +47,7 @@ const InfoBar = () => {
             </div>
             <div className="leading-tight text-center sm:text-left">
               <p>Call Us</p>
-              <p>(00) 123 456 789</p>
+              <p>+49 15679697580</p>
             </div>
           </div>
         </div>

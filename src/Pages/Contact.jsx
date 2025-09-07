@@ -8,7 +8,7 @@ export const Contact = () => {
     <div>
       <PageBanner
         backgroundImage={ContactBannerImg}
-        heading="Services"
+        heading="Contact Us"
         title="Our Logistic Services"
       />
       <ContactInfo />
