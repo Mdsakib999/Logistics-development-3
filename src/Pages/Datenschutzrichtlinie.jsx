@@ -13,9 +13,9 @@ const Datenschutzrichtlinie = () => {
 					Impressum
 				</h1>
 				<p className="mb-2 text-base sm:text-lg">
-					<strong>Spedition Bernhard GmbH</strong>
+					<strong>Spedition Struckmeier</strong>
 					<br />
-					Boschstraße 4, 67304 Eisenberg, Deutschland
+					Keuperstr. 20, 73734 Esslingen, Deutschland
 					<br />
 
 				</p>
@@ -25,15 +25,17 @@ const Datenschutzrichtlinie = () => {
 						+4915679697580
 					</a>
 					<br />
-					<strong>E-Mail: </strong> transport@bernhardlogistik.de
+					<strong>E-Mail: </strong> 
 				</p>
 				<h2 className="text-lg sm:text-xl md:text-2xl font-semibold mt-4 mb-2">
 					Vertretungsberechtigter
 				</h2>
 				<p className="mb-2 text-base sm:text-lg">
-					Geschäftsführer: Thomas Bernhard
+					Geschäftsführer: RAFAL BURY
 				</p>
-				<h2 className="text-lg sm:text-xl md:text-2xl font-semibold mt-4 mb-2">
+
+
+				{/* <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mt-4 mb-2">
 					Registereintrag
 				</h2>
 				<p className="mb-2 text-base sm:text-lg">
@@ -42,7 +44,9 @@ const Datenschutzrichtlinie = () => {
 					<strong>Registergericht:</strong> Eisenberg
 					<br />
 					<strong>Handelsregisternummer: </strong> HRB 11828
-				</p>
+				</p> */}
+
+
 				{/* <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mt-4 mb-2">
           Umsatzsteuer-Identifikationsnummer
         </h2>
@@ -70,16 +74,16 @@ const Datenschutzrichtlinie = () => {
 					Website ist:
 				</p>
 				<p className="mb-4 text-base  sm:text-lg">
-					Spedition Bernhard GmbH
+					Spedition Struckmeier
 					<br />
-					Boschstraße 4, 67304 Eisenberg, Deutschland
+					Keuperstr. 20, 73734 Esslingen, Deutschland
 					<br />
 					<strong>Telefon:</strong>{" "}
 					<a href="tel:+4915679697580" className="">
 						+4915679697580
 					</a>
 					<br />
-					<strong>E-Mail:</strong> transport@bernhardlogistik.de
+					<strong>E-Mail:</strong> 
 					<br />
 				</p>
 				<h2 className="text-2xl sm:text-3xl md:text-3xl font-semibold mt-4 mb-2">
