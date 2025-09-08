@@ -21,10 +21,10 @@ export const ShortBrief = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-8 my-20 py-10 relative">
-      <HeadingInfo>A Short Brief</HeadingInfo>
+      <HeadingInfo> Eine kurze Zusammenfassung</HeadingInfo>
 
       <h2 className="text-2xl md:text-3xl font-bold my-6 leading-snug">
-        Our Company History
+        Eine kurze Zusammenfassung
       </h2>
 
       <div className="relative py-8">
@@ -41,7 +41,7 @@ export const ShortBrief = () => {
           {/* Right Steps */}
           <div className="tracking-wide max-w-2xl">
             <p className="font-semibold text-xl mb-3 transition-all duration-500 ease-in-out">
-              <span className="text-blue-500">Transit </span>
+              <span className="text-blue-500">Spedition Struckmeier </span>
               {currentData.title}
             </p>
 

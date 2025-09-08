@@ -4,35 +4,36 @@ export const WhyChooseUs = () => {
   const menuItems = [
     {
       id: 1,
-      title: "People",
-      desc: "We understand that our people impact the success of our business, and we hire people who are smart",
+      title: "Menschen",
+      desc: " Wir wissen, dass unsere Mitarbeiter den Erfolg unseres Unternehmens beeinflussen, und wir stellen kluge Leute ein",
       img: "/assets/About/SVG/people.png",
     },
     {
       id: 2,
-      title: "Customer Service",
-      desc: "We strive to provide superior customer service and ensure that every client is completely satisfied with our work",
+      title: "Kundendienst",
+      desc: "Wir sind bestrebt, einen erstklassigen Kundenservice zu bieten und sicherzustellen, dass jeder Kunde mit unserer Arbeit vollkommen zufrieden ist",
       img: "/assets/About/SVG/service.png",
     },
     {
       id: 3,
-      title: "Support",
-      desc: "Tell us what you need and our specialist team will deliver it personally, taking care of all the procedures.",
+      title: "Unterstützung",
+      desc: "Teilen Sie uns Ihren Bedarf mit und unser Spezialistenteam liefert ihn persönlich und kümmert sich um die gesamte Abwicklung.",
       img: "/assets/About/SVG/support.png",
     },
     {
       id: 4,
-      title: "Quality",
-      desc: "We are committed to deliver outstanding, cutting edge IT solutions that add real value that goes beyond what is expected.",
+      title: "Qualität",
+      desc: "Wir sind bestrebt, herausragende, hochmoderne Logistiklösungen zu liefern, die einen echten Mehrwert bieten, der über die Erwartungen hinausgeht.",
       img: "/assets/About/SVG/quality.png",
     },
   ];
 
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-8 my-20">
-      <HeadingInfo>Why Choose Us</HeadingInfo>
+      <HeadingInfo>Warum Uns Wählen</HeadingInfo>
       <h2 className="text-2xl md:text-3xl font-bold my-10">
-        Why Choose <span className="text-blue-500">Transit</span> Service?
+        Warum Spedition{" "}
+        <span className="text-blue-500">Struckmeier wählen?</span>
       </h2>
 
       <div className="flex flex-col lg:flex-row items-center justify-between gap-10 mx-auto">
@@ -45,16 +46,16 @@ export const WhyChooseUs = () => {
 
         {/* Right Steps */}
         <p className="text-sm md:text-base text-gray-600 leading-loose tracking-wide text-justify max-w-2xl">
-          Our mission statement is simplicity itself. To constantly exceed
-          customer expectations by providing superior freight forwarding and
-          global transportation solutions including air, ocean, and customs
-          brokerage and logistics services. Our team of professionals is totally
-          committed to provide you a service that far exceeds your expectations.
-          We put forward a tremendous extra effort everyday to give this level
-          and quality of service and we are always striving to deliver the most
-          efficient and effective solutions in the industry by utilizing state
-          of the art technologies, highly trained friendly and experience staff
-          as well as a solid infrastructure.
+          Unser Leitbild ist Einfachheit pur. Wir übertreffen die Erwartungen
+          unserer Kunden stets mit erstklassigen Speditions- und globalen
+          Transportlösungen, darunter Luft-, See-, Zollabfertigungs- und
+          Logistikdienstleistungen. Unser professionelles Team setzt alles
+          daran, Ihnen einen Service zu bieten, der Ihre Erwartungen weit
+          übertrifft. Wir geben täglich unser Bestes, um Ihnen dieses Niveau und
+          diese Servicequalität zu bieten und sind stets bestrebt, die
+          effizientesten und effektivsten Lösungen der Branche zu liefern. Dazu
+          nutzen wir modernste Technologien, bestens geschultes, freundliches
+          und erfahrenes Personal sowie eine solide Infrastruktur.
         </p>
       </div>
 
