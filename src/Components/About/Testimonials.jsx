@@ -65,10 +65,10 @@ export const Testimonials = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-8 my-20">
-      <HeadingInfo>Testimonials</HeadingInfo>
+      <HeadingInfo>Referenzen</HeadingInfo>
 
       <h2 className="text-2xl md:text-3xl font-bold my-6 leading-snug">
-        What Our Customer Say
+        Was unsere Kunden sagen
       </h2>
 
       <div className="relative mt-4">

@@ -12,8 +12,9 @@ export const Services = () => {
     <div>
       <PageBanner
         backgroundImage={ServiceBannerImg}
-        heading="Services"
-        title="Our Logistic Services"
+        heading="Dienstleistungen 
+"
+        title="Unsere Logistikdienstleistungen"
       />
       <Features />
       <Stats />

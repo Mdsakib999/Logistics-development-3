@@ -4,9 +4,9 @@ import { HeadingInfo } from "../SharedComponent/HeadingInfo";
 export const WhatWeDo = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-8 my-20">
-      <HeadingInfo>What We Do</HeadingInfo>
+      <HeadingInfo>Was wir tun</HeadingInfo>
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold my-10">
-        Our Logistic Services
+        Unsere Logistikdienstleistungen
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:my-20 gap-18">
