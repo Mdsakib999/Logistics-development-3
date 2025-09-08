@@ -8,11 +8,13 @@ export const Contact = () => {
     <div>
       <PageBanner
         backgroundImage={ContactBannerImg}
-        heading="Contact Us"
-        title="Our Logistic Services"
+        heading="Kontaktieren Sie uns"
+        title="Unsere Logistikdienstleistungen"
       />
-      <ContactInfo />
-      <ContactForm />
+      <div className="flex max-w-7xl mx-auto">
+        <ContactInfo />
+        <ContactForm />
+      </div>
     </div>
   );
 };
