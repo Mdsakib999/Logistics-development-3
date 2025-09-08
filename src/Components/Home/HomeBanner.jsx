@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { GradientButton } from "../SharedComponent/Button/GradientButton";
 import { HeadingInfo } from "../SharedComponent/HeadingInfo";
 import HomeBannerImg from "/assets/Banner/HomeBanner.webp";
@@ -18,10 +19,14 @@ export const HomeBanner = () => {
             Sicherster Anbieter von Logistiklösungen mit Integrität
           </h1>
           <p className="text-base md:text-xl lg:text-2xl text-white/90 my-5">
-            Wir sind der führende Anbieter von Teilladungstransporten mit dem erstklassigen Netzwerk, der Technologie und dem Service, den unsere Kunden jederzeit benötigen.
+            Wir sind der führende Anbieter von Teilladungstransporten mit dem
+            erstklassigen Netzwerk, der Technologie und dem Service, den unsere
+            Kunden jederzeit benötigen.
           </p>
         </div>
-        <GradientButton>Entdecken Sie mehr</GradientButton>
+        <Link to="/ueber-uns">
+          <GradientButton>Entdecken Sie mehr</GradientButton>
+        </Link>
       </div>
     </div>
   );

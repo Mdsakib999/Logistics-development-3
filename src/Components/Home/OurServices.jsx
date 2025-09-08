@@ -34,7 +34,6 @@ export const OurServices = () => {
       <HeadingInfo>Unsere Leistungen</HeadingInfo>
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-10 md:w-[55%]">
         Wir definieren Exzellenz im Transport von Gütern von A nach B
-
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -65,7 +64,10 @@ export const OurServices = () => {
                 <h3 className="text-lg font-semibold mb-3 text-center">
                   {item.description}
                 </h3>
-                <Link to="/services" className="text-sm w-full text-white border border-gray-50 text-center rounded-full px-4 py-2 font-medium hover:bg-gray-100 hover:text-black transition">
+                <Link
+                  to="/dienstleistungen"
+                  className="text-sm w-full text-white border border-gray-50 text-center rounded-full px-4 py-2 font-medium hover:bg-gray-100 hover:text-black transition"
+                >
                   Lösungen entdecken
                 </Link>
               </div>

@@ -2,6 +2,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { HeadingInfo } from "../SharedComponent/HeadingInfo";
 import deliveryCar from "/assets/Services/delivery.png";
 import solutionTeam from "/assets/Services/solutionTeam.jpg";
+import { Link } from "react-router-dom";
 
 export const Solution = () => {
   return (
@@ -31,10 +32,12 @@ export const Solution = () => {
                 Services erfolgt auf Grundlage der von unserer Supply Chain
                 Solution bereitgestellten Lösungsspezifikationen.
               </p>
-              <button className="text-yellow-400 flex items-center gap-2 text-md  transition-colors cursor-pointer mt-10">
-                Mehr lessen
-                <FaLongArrowAltRight className="w-5 h-5" />
-              </button>
+              <Link to={"/kontakt"}>
+                <button className="text-yellow-400 flex items-center gap-2 text-md  transition-colors cursor-pointer mt-10">
+                  Mehr lessen
+                  <FaLongArrowAltRight className="w-5 h-5" />
+                </button>
+              </Link>
             </div>
           </div>
         </div>

@@ -21,14 +21,16 @@ export const FAQ = () => {
         {/* Left side - Content */}
         <div className="flex flex-col gap-6">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-snug">
-           Alles, was Sie über den Versand wissen müssen
+            Alles, was Sie über den Versand wissen müssen
           </h2>
 
           <p className="text-gray-600 text-base md:text-lg leading-relaxed max-w-2xl">
-            Entdecken Sie wertvolle Informationen und Einblicke zur Versandlogistik in unserem umfassenden FAQ-Bereich. Wir beantworten häufig gestellte Fragen und bieten kompetente Beratung.
+            Entdecken Sie wertvolle Informationen und Einblicke zur
+            Versandlogistik in unserem umfassenden FAQ-Bereich. Wir beantworten
+            häufig gestellte Fragen und bieten kompetente Beratung.
           </p>
           <GradientButton className="w-fit">
-            <Link to={"/contact"} className="flex items-center gap-2">
+            <Link to={"/kontakt"} className="flex items-center gap-2">
               Kontaktieren Sie uns
               <MdKeyboardArrowRight className="w-5 h-5" />
             </Link>

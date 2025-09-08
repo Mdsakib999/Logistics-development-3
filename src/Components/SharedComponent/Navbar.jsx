@@ -68,10 +68,10 @@ export default function Navbar() {
 
   const menuItems = [
     { name: "Heim", path: "/" },
-    { name: "Über uns", path: "/about" },
-    { name: "Dienstleistungen", path: "/services" },
+    { name: "Über uns", path: "/ueber-uns" },
+    { name: "Dienstleistungen", path: "/dienstleistungen" },
     // { name: "Pricing", path: "/pricing" },
-    { name: "Kontakt", path: "/contact" },
+    { name: "Kontakt", path: "/kontakt" },
     // { name: "Blogs", path: "/blog" },
   ];
 
@@ -147,11 +147,7 @@ export default function Navbar() {
               <div className="hidden md:block"></div>
               {/* Logo */}
               <Link to="/" className="shrink-0 md:hidden">
-                <img
-                  src={Logo}
-                  alt="Transit Logo"
-                  className="max-w-[150px]"
-                />
+                <img src={Logo} alt="Transit Logo" className="max-w-[150px]" />
               </Link>
               <button
                 onClick={toggleMobileMenu}
@@ -172,9 +168,7 @@ export default function Navbar() {
                     to={item.path}
                     className={({ isActive }) =>
                       `block transition-all duration-300 ${
-                        isActive
-                          ? "text-primary font-bold"
-                          : "text-gray-800"
+                        isActive ? "text-primary font-bold" : "text-gray-800"
                       }`
                     }
                     onClick={() => setIsMobileMenuOpen(false)}

@@ -89,7 +89,7 @@ export const Overview = () => {
           </div>
 
           {/* Learn More Button */}
-          <Link to="/services">
+          <Link to="/dienstleistungen">
             {" "}
             <div className="pt-4">
               <GradientButton>Mehr erfahren</GradientButton>

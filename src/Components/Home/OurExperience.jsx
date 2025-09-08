@@ -31,7 +31,11 @@ export const OurExperience = () => {
         {/* Left Content */}
         <div className="lg:col-span-2">
           <h2 className="text-2xl md:text-3xl lg:text-3xl font-bold mb-10">
-            Wir sind ein führender Komplettanbieter von Logistikdienstleistungen und helfen Ihnen,  <span className="text-blue-500">Ihre Verzögerungen und Schäden zu beheben.</span>
+            Wir sind ein führender Komplettanbieter von Logistikdienstleistungen
+            und helfen Ihnen,{" "}
+            <span className="text-blue-500">
+              Ihre Verzögerungen und Schäden zu beheben.
+            </span>
           </h2>
 
           <div className="flex justify-between items-center flex-wrap gap-4">
@@ -46,8 +50,9 @@ export const OurExperience = () => {
             </div>
 
             <GradientButton>
-              <Link to="/about" className="flex items-center gap-1">
-                Erfahren Sie mehr<LuArrowUpRight className="w-5 h-5" />
+              <Link to="/ueber-uns" className="flex items-center gap-1">
+                Erfahren Sie mehr
+                <LuArrowUpRight className="w-5 h-5" />
               </Link>
             </GradientButton>
           </div>
