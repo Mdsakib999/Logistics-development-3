@@ -90,7 +90,7 @@ export const SupplyChain = () => {
                 ))}
               </ul>
             </div>
-            <Link to="/contact">
+            <Link to="/kontakt">
               <button className="mt-6 bg-white group-hover:bg-yellow-400 text-blue-900 group-hover:text-white font-semibold py-2 px-4 rounded-full">
                 Kontaktieren Sie uns
               </button>

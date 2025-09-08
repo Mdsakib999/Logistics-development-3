@@ -56,7 +56,7 @@ export const SteamlinedProcess = () => {
             </div>
           ))}
           <Link
-            to="/contact"
+            to="/kontakt"
             aria-label="Kontaktieren Sie uns"
             className="border border-primary text-black px-6 py-2 rounded-2xl flex items-center gap-2 text-sm cursor-pointer hover:bg-[#133FAE] hover:border-blue-500 hover:text-white max-w-fit mt-12"
             role="button"

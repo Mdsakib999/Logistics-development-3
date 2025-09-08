@@ -51,8 +51,13 @@ export const AboutUs = () => {
           </h2>
 
           <p className="text-sm sm:text-base text-black/70 leading-relaxed text-justify px-3 md:px-0">
-            Wir bieten nahtlose Logistiklösungen, die Ihr Unternehmen voranbringen. Von der Spedition bis zum Supply-Chain-Management sorgt unser Team für sichere, zuverlässige und pünktliche Lieferungen auf lokalen und internationalen Märkten. <br /> Egal, ob Sie Unterstützung beim Transport, der Lagerung oder beim Zoll benötigen, Discover Spedition Struckmeier vereinfacht den Prozess und hilft Ihnen, neue Ziele sicher zu erreichen.
-
+            Wir bieten nahtlose Logistiklösungen, die Ihr Unternehmen
+            voranbringen. Von der Spedition bis zum Supply-Chain-Management
+            sorgt unser Team für sichere, zuverlässige und pünktliche
+            Lieferungen auf lokalen und internationalen Märkten. <br /> Egal, ob
+            Sie Unterstützung beim Transport, der Lagerung oder beim Zoll
+            benötigen, Discover Spedition Struckmeier vereinfacht den Prozess
+            und hilft Ihnen, neue Ziele sicher zu erreichen.
           </p>
 
           {/* Stats */}
@@ -86,7 +91,7 @@ export const AboutUs = () => {
           {/* Buttons */}
           <div className="flex flex-col md:flex-row px-5 md:px-0 gap-6 pt-6 justify-center lg:justify-start">
             <GradientButton>
-              <Link to="/contact" className="flex items-center gap-2">
+              <Link to="/kontakt" className="flex items-center gap-2">
                 Kontakt
                 <MdKeyboardArrowRight className="w-5 h-5" />
               </Link>

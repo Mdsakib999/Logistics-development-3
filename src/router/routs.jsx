@@ -28,15 +28,15 @@ export const router = createBrowserRouter([
       //   element: <BlogDetails />,
       // },
       {
-        path: "/about",
+        path: "/ueber-uns",
         element: <About />,
       },
       {
-        path: "/contact",
+        path: "/kontakt",
         element: <Contact />,
       },
       {
-        path: "/services",
+        path: "/dienstleistungen",
         element: <Services />,
       },
       {
