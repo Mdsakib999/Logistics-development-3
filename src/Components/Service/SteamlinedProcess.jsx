@@ -1,5 +1,6 @@
 import img from "/assets/Services/streamlinedProcess.jpg";
 import { GoArrowRight } from "react-icons/go";
+import { Link } from "react-router-dom";
 export const SteamlinedProcess = () => {
   const menuItems = [
     {
@@ -54,10 +55,15 @@ export const SteamlinedProcess = () => {
               </div>
             </div>
           ))}
-          <button className="border border-primary text-black px-6 py-2 rounded-2xl flex items-center gap-2 text-sm cursor-pointer hover:bg-[#133FAE] hover:border-blue-500 hover:text-white max-w-fit mt-12">
-            Kostenloses Angebot anfordern
+          <Link
+            to="/contact"
+            aria-label="Kontaktieren Sie uns"
+            className="border border-primary text-black px-6 py-2 rounded-2xl flex items-center gap-2 text-sm cursor-pointer hover:bg-[#133FAE] hover:border-blue-500 hover:text-white max-w-fit mt-12"
+            role="button"
+          >
+            Kontaktieren Sie uns
             <GoArrowRight className="w-5 h-5" />
-          </button>{" "}
+          </Link>
         </div>
       </div>
     </div>

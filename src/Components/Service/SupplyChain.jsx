@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const SupplyChain = () => {
   const menuItems = [
     {
@@ -88,9 +90,11 @@ export const SupplyChain = () => {
                 ))}
               </ul>
             </div>
-            <button className="mt-6 bg-white group-hover:bg-yellow-400 text-blue-900 group-hover:text-white font-semibold py-2 px-4 rounded-full">
-              Kostenloses Angebot anfordern
-            </button>
+            <Link to="/contact">
+              <button className="mt-6 bg-white group-hover:bg-yellow-400 text-blue-900 group-hover:text-white font-semibold py-2 px-4 rounded-full">
+                Kontaktieren Sie uns
+              </button>
+            </Link>
           </div>
         ))}
       </div>

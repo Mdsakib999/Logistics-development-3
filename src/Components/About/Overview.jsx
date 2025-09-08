@@ -3,6 +3,7 @@ import { HeadingInfo } from "../SharedComponent/HeadingInfo";
 import img1 from "/assets/About/truck.jpg";
 import img2 from "/assets/About/deliveryBoy.jpg";
 import { GradientButton } from "../SharedComponent/Button/GradientButton";
+import { Link } from "react-router-dom";
 
 export const Overview = () => {
   const [activeTab, setActiveTab] = useState("approach");
@@ -88,9 +89,12 @@ export const Overview = () => {
           </div>
 
           {/* Learn More Button */}
-          <div className="pt-4">
-            <GradientButton>Mehr erfahren</GradientButton>
-          </div>
+          <Link to="/services">
+            {" "}
+            <div className="pt-4">
+              <GradientButton>Mehr erfahren</GradientButton>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
