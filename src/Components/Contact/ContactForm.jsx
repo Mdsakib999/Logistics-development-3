@@ -27,9 +27,10 @@ export const ContactForm = () => {
   return (
     <div className="max-w-4xl mx-auto bg-primary rounded flex flex-col gap-8 text-white py-12 px-6 md:px-12 my-10">
       <p className="text-md max-w-xl text-gray-400 mb-20">
-        We appreciate your interest please complete the form below and we will
-        contact you to discuss your warehousing, distribution, air, ocean
-        freight or any other logistics needs.
+        Wir freuen uns über Ihr Interesse. Bitte füllen Sie das untenstehende
+        Formular aus und wir werden uns mit Ihnen in Verbindung setzen, um Ihre
+        Lagerhaltungs-, Vertriebs-, Luft-, Seefracht- oder sonstigen
+        Logistikanforderungen zu besprechen.
       </p>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-6">
@@ -39,7 +40,7 @@ export const ContactForm = () => {
             <input
               type="text"
               name="name"
-              placeholder="Your name *"
+              placeholder="Ihr Name *"
               value={formData.name}
               onChange={handleInputChange}
               required
@@ -65,7 +66,7 @@ export const ContactForm = () => {
             <input
               type="tel"
               name="phone"
-              placeholder="Phone Number *"
+              placeholder="Telefonnummer  *"
               value={formData.phone}
               onChange={handleInputChange}
               required
@@ -76,7 +77,7 @@ export const ContactForm = () => {
             <input
               type="text"
               name="city"
-              placeholder="City *"
+              placeholder="Stadt *"
               value={formData.city}
               onChange={handleInputChange}
               required
@@ -89,7 +90,7 @@ export const ContactForm = () => {
         <div>
           <textarea
             name="message"
-            placeholder="Your Message"
+            placeholder="Ihre Nachricht"
             value={formData.message}
             onChange={handleInputChange}
             rows={6}
@@ -99,7 +100,7 @@ export const ContactForm = () => {
 
         {/* Submit button */}
         <div className="mx-auto flex justify-center items-center mt-10">
-          <GradientButton type="submit">Submit Message</GradientButton>
+          <GradientButton type="submit">Nachricht senden</GradientButton>
         </div>
       </form>
     </div>
