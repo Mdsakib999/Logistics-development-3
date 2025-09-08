@@ -11,7 +11,7 @@ export const Contact = () => {
         heading="Kontaktieren Sie uns"
         title="Unsere Logistikdienstleistungen"
       />
-      <div className="flex max-w-7xl mx-auto">
+      <div className="flex flex-col md:flex-row max-w-7xl mx-auto">
         <ContactInfo />
         <ContactForm />
       </div>
