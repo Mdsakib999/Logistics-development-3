@@ -1,32 +1,27 @@
 export const faqData = [
     {
         id: 1,
-        question: "What shipping services do you offer?",
+        question: "Welche Versanddienste bieten Sie an?",
         answer:
-            "We offer a comprehensive range of shipping services including domestic and international freight, express delivery, ground transportation, air cargo, and specialized logistics solutions. Our services are tailored to meet various business needs from small packages to large industrial shipments.",
+            "Wir bieten ein umfassendes Spektrum an Versanddienstleistungen, darunter nationale und internationale Fracht, Expressversand, Bodentransport, Luftfracht und spezialisierte Logistiklösungen. Unsere Dienstleistungen sind auf die unterschiedlichsten Geschäftsanforderungen zugeschnitten, von kleinen Paketen bis hin zu großen Industriesendungen.",
     },
     {
         id: 2,
-        question: "How do I request a shipping quote?",
+        question: "Wie fordere ich ein Versandangebot an?",
         answer:
-            "You can request a shipping quote through our online quote system, by calling our customer service team, or by contacting us directly. Simply provide details about your shipment including dimensions, weight, origin, destination, and preferred delivery timeframe for an accurate quote.",
+            "Sie können ein Versandangebot über unser Online-Angebotssystem anfordern, unseren Kundenservice anrufen oder uns direkt kontaktieren. Geben Sie einfach Details zu Ihrer Sendung an, darunter Abmessungen, Gewicht, Herkunftsort, Zielort und gewünschte Lieferzeit, um ein genaues Angebot zu erhalten.",
     },
-    {
-        id: 3,
-        question: "What payment methods do you accept?",
-        answer:
-            "We accept various payment methods including credit cards (Visa, MasterCard, American Express), bank transfers, corporate accounts, and online payment platforms. For regular business customers, we also offer flexible payment terms and invoicing options.",
-    },
+
     {
         id: 4,
-        question: "How can I track my shipment?",
+        question: "Wie kann ich meine Sendung verfolgen?",
         answer:
-            "You can track your shipment in real-time using our online tracking system. Simply enter your tracking number on our website or mobile app. You'll receive automatic updates via email or SMS about your shipment's status, location, and estimated delivery time.",
+            "Mit unserem Online-Tracking-System können Sie Ihre Sendung in Echtzeit verfolgen. Geben Sie einfach Ihre Sendungsnummer auf unserer Website oder in unserer mobilen App ein. Sie erhalten automatisch per E-Mail oder SMS Updates zum Status, Standort und voraussichtlichen Lieferzeitpunkt Ihrer Sendung.",
     },
     {
         id: 5,
-        question: "Do you provide insurance for shipments?",
+        question: "Bieten Sie eine Versandversicherung an?",
         answer:
-            "Yes, we offer comprehensive insurance coverage for all shipments to protect against loss, damage, or theft during transit. Insurance options vary based on the value and type of goods being shipped. We recommend discussing insurance options when booking your shipment.",
+            "Ja, wir bieten umfassenden Versicherungsschutz für alle Sendungen zum Schutz vor Verlust, Beschädigung oder Diebstahl während des Transports. Die Versicherungsoptionen variieren je nach Wert und Art der versendeten Waren. Wir empfehlen Ihnen, die Versicherungsoptionen bereits bei der Buchung Ihrer Sendung zu besprechen.",
     },
 ];

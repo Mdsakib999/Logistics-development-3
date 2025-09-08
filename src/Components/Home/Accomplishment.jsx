@@ -12,31 +12,31 @@ export const Accomplishment = () => {
     {
       id: 1,
       count: 5731,
-      title: "Delivered Packages.",
-      desc: "We strongly support best practice sharing across our operations around the world and across various industrial sectors.",
+      title: "Gelieferte Pakete",
+      desc: "Wir unterstützen den Austausch bewährter Verfahren in unseren weltweiten Betrieben und in verschiedenen Industriesektoren nachdrücklich.",
       img: "/assets/Accomplishment/car.png",
     },
     {
       id: 2,
       count: 123,
-      title: "Countries covered.",
-      desc: "As one of the world’s leading supply chain management companies, we design and implement industry-leading solutions.",
+      title: "Abgedeckte Länder",
+      desc: "Als eines der weltweit führenden Supply-Chain-Management-Unternehmen entwickeln und implementieren wir branchenführende Lösungen.",
       img: "/assets/Accomplishment/map.png",
     },
     {
       id: 3,
       count: 476,
-      title: "Tons of goods.",
-      desc: "Our commitment to sustainability helps us reduce waste and share the benefits with our customers.",
+      title: "Tonnenweise Waren",
+      desc: "Unser Engagement für Nachhaltigkeit hilft uns, Abfall zu reduzieren und die Vorteile mit unseren Kunden zu teilen.",
       img: "/assets/Accomplishment/goods.png",
     },
   ];
 
   return (
     <div className="px-4 md:px-8 lg:px-12 py-20 max-w-7xl mx-auto relative flex flex-col gap-8">
-      <HeadingInfo> Accomplishment </HeadingInfo>
+      <HeadingInfo> Leistung </HeadingInfo>
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-10">
-        Let the numbers speak for themselves
+        Lassen Sie die Zahlen für sich sprechen
       </h2>
 
       <div

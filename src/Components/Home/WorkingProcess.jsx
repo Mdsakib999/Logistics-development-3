@@ -5,51 +5,48 @@ export const WorkingProcess = () => {
   const menuItems = [
     {
       id: 1,
-      title: "Order Placement / Booking",
+      title: "Auftragserteilung / Buchung",
       description:
-        "Customers place shipment orders through our platform or with our team. We collect all necessary information including cargo type, pickup location, and delivery timeline.",
+        "Kunden erteilen Versandaufträge über unsere Plattform oder bei unserem Team. Wir erfassen alle notwendigen Informationen, einschließlich Frachtart, Abholort und Lieferzeitplan.",
       img: "assets/WorkingProcess/calendar.png",
     },
     {
       id: 2,
-      title: "Pickup & Documentation",
+      title: "Abholung & Dokumentation",
       description:
-        "We arrange pickup from the sender’s location and ensure all documentation (invoices, customs forms, etc.) is prepared accurately and legally.",
+        "Wir organisieren die Abholung vom Standort des Absenders und stellen sicher, dass alle Unterlagen (Rechnungen, Zollformulare usw.) korrekt und rechtskonform erstellt werden.",
       img: "assets/WorkingProcess/pickup.png",
     },
     {
       id: 3,
-      title: "Transportation & Tracking",
+      title: "Transport und Sendungsverfolgung",
       description:
-        "Goods are transported via the chosen mode (truck, air, sea). Clients receive real-time tracking updates throughout the journey.",
+        "Der Transport der Waren erfolgt über das gewählte Transportmittel (LKW, Flugzeug, Seefracht). Kunden erhalten während der gesamten Reise Echtzeit-Tracking-Updates.",
       img: "assets/WorkingProcess/icon-park.png",
     },
     {
       id: 4,
-      title: ` Customs Clearance
-                                                (if international)`,
+      title: `Zollabfertigung (falls international)`,
       description:
-        "We handle all customs clearance procedures efficiently to prevent delays, ensuring compliance with destination regulations.",
+        "Wir kümmern uns effizient um alle Zollabfertigungsverfahren, um Verzögerungen zu vermeiden und die Einhaltung der Bestimmungen am Bestimmungsort sicherzustellen.",
       img: "assets/WorkingProcess/customs.png",
     },
     {
       id: 5,
-      title: " Final Delivery & POD",
+      title: " Endgültige Lieferung",
       description:
-        "The shipment is delivered to the final destination, and proof of delivery is provided to confirm successful handoff.",
+        "Die Sendung wird an den endgültigen Bestimmungsort geliefert und die erfolgreiche Übergabe wird durch einen Zustellnachweis bestätigt.",
       img: "assets/WorkingProcess/package-person.png",
     },
   ];
   return (
     <div className="max-w-7xl mx-auto my-10 flex flex-col gap-5 px-4 md:px-8 lg:px-12">
-      <HeadingInfo> Working Process </HeadingInfo>
+      <HeadingInfo> Arbeitsprozess </HeadingInfo>
       <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium">
-        Our Working Proceess
+        Unser Arbeitsprozess
       </h1>
-      <p className="font-medium text-black/60">
-        From inquiry to delivery, our streamlined process ensures efficient
-        handling of <br className="hidden md:block" /> shipments, supported by
-        our dedicated team every step.
+      <p className="font-medium text-black/60 md:w-[62%]">
+        Von der Anfrage bis zur Lieferung gewährleistet unser optimierter Prozess eine effiziente Abwicklung der Sendungen, die bei jedem Schritt von unserem engagierten Team unterstützt wird.
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 my-5">

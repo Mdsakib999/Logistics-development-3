@@ -9,12 +9,13 @@ import miniCar from "/assets/About/miniCar.png";
 import { FaPersonChalkboard } from "react-icons/fa6";
 import { PrimaryButton } from "../SharedComponent/Button/PrimaryButton";
 import { GradientButton } from "../SharedComponent/Button/GradientButton";
+import { Link } from "react-router-dom";
 export const AboutUs = () => {
   const { ref, inView } = useInView({ triggerOnce: false });
 
   return (
     <div className="px-4 md:px-8 lg:px-12 py-20 max-w-7xl mx-auto relative ">
-      <HeadingInfo> About Us</HeadingInfo>
+      <HeadingInfo> Über uns</HeadingInfo>
       <div className="grid lg:grid-cols-2 gap-28 lg:gap-12 items-center mt-20 relative ">
         {/* Left: Images and vertical text */}
         <div className="w-64 h-80 md:w-96 md:h-96 lg:w-80 lg:h-[28rem] rounded-xl overflow-hidden shadow-lg ">
@@ -37,7 +38,7 @@ export const AboutUs = () => {
               </div>
               <div className="flex flex-col items-center justify-center text-lg font-semibold text-center ">
                 <p className="text-primary font-bold">1250+</p>
-                <p className="">Trained People</p>
+                <p className="">Geschulte Leute</p>
               </div>
             </div>
           </div>
@@ -50,21 +51,17 @@ export const AboutUs = () => {
           </h2>
 
           <p className="text-sm sm:text-base text-black/70 leading-relaxed text-justify px-3 md:px-0">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Exercitationem laudantium quis, voluptatibus sint deserunt quam
-            dolores quibusdam iste, porro, aliquam id autem quaerat quae! Rem,
-            nesciunt id corrupti fugiat, cum, sunt consectetur assumenda dolorem
-            quia recusandae soluta! Perspiciatis nesciunt ut est hic nostrum
-            porro laudantium eaque, quis voluptates, minima ipsum!
+            Wir bieten nahtlose Logistiklösungen, die Ihr Unternehmen voranbringen. Von der Spedition bis zum Supply-Chain-Management sorgt unser Team für sichere, zuverlässige und pünktliche Lieferungen auf lokalen und internationalen Märkten. <br /> Egal, ob Sie Unterstützung beim Transport, der Lagerung oder beim Zoll benötigen, Discover Spedition Struckmeier vereinfacht den Prozess und hilft Ihnen, neue Ziele sicher zu erreichen.
+
           </p>
 
           {/* Stats */}
           <div ref={ref} className="grid md:grid-cols-2 gap-5 pt-2">
             {[
-              "Merchants Nationwide",
-              "Industries Nationwide",
-              "Retailers Nationwide",
-              "Outlets Nationwide",
+              "Händler im ganzen Land",
+              "Branchen bundesweit",
+              "Einzelhändler im ganzen Land",
+              "Verkaufsstellen bundesweit",
             ].map((label, i) => (
               <div key={i} className="flex items-center gap-2">
                 <div className="bg-primary w-8 h-8 rounded-full flex items-center justify-center p-1">
@@ -89,10 +86,10 @@ export const AboutUs = () => {
           {/* Buttons */}
           <div className="flex flex-col md:flex-row px-5 md:px-0 gap-6 pt-6 justify-center lg:justify-start">
             <GradientButton>
-              <div className="flex items-center gap-2">
-                Contact Us
+              <Link to="/contact" className="flex items-center gap-2">
+                Kontakt
                 <MdKeyboardArrowRight className="w-5 h-5" />
-              </div>
+              </Link>
             </GradientButton>
 
             {/* <GradientButton>
