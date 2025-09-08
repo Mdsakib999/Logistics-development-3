@@ -22,26 +22,26 @@ export const SupplyChain = () => {
       ],
       img: "/assets/Services/location.png",
     },
-    {
-      id: 3,
-      title: "Taggleiche Lieferung",
-      feature: [
-        "Pakete werden innerhalb weniger Stunden zugestellt",
-        "Schnellere Lieferung stärkt Vertrauen und Kundenbindung",
-        "Minimierung der Lagerhaltungskosten",
-      ],
-      img: "/assets/Services/24hours.png",
-    },
-    {
-      id: 4,
-      title: "Übernachtversand",
-      feature: [
-        "Zustellung des Pakets bis zum nächsten Morgen",
-        "Schnellere Lieferung ohne hohe Zusatzkosten",
-        "Kostengünstiger als Expressversand",
-      ],
-      img: "/assets/Services/moon.png",
-    },
+    // {
+    //   id: 3,
+    //   title: "Taggleiche Lieferung",
+    //   feature: [
+    //     "Pakete werden innerhalb weniger Stunden zugestellt",
+    //     "Schnellere Lieferung stärkt Vertrauen und Kundenbindung",
+    //     "Minimierung der Lagerhaltungskosten",
+    //   ],
+    //   img: "/assets/Services/24hours.png",
+    // },
+    // {
+    //   id: 4,
+    //   title: "Übernachtversand",
+    //   feature: [
+    //     "Zustellung des Pakets bis zum nächsten Morgen",
+    //     "Schnellere Lieferung ohne hohe Zusatzkosten",
+    //     "Kostengünstiger als Expressversand",
+    //   ],
+    //   img: "/assets/Services/moon.png",
+    // },
     {
       id: 5,
       title: "Geschäftslösung",
@@ -52,16 +52,16 @@ export const SupplyChain = () => {
       ],
       img: "/assets/Services/globe.png",
     },
-    {
-      id: 6,
-      title: "Lager & Fulfillment",
-      feature: [
-        "Pakete werden innerhalb weniger Stunden zugestellt",
-        "Schnellere Lieferung stärkt Vertrauen und Kundenbindung",
-        "Minimierung der Lagerkosten",
-      ],
-      img: "/assets/Services/warehouse2.png",
-    },
+    // {
+    //   id: 6,
+    //   title: "Lager & Fulfillment",
+    //   feature: [
+    //     "Pakete werden innerhalb weniger Stunden zugestellt",
+    //     "Schnellere Lieferung stärkt Vertrauen und Kundenbindung",
+    //     "Minimierung der Lagerkosten",
+    //   ],
+    //   img: "/assets/Services/warehouse2.png",
+    // },
   ];
 
   return (

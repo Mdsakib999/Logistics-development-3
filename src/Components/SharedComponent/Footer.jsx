@@ -17,8 +17,8 @@ export default function Footer() {
         {/* Left Side: Logo & Social */}
         <div className="flex flex-col items-center md:items-start">
           <img src={Logo} alt="Transit Logo" className="max-w-[200px]" />
-          <p className="md:max-w-[200px] mt-4 italic ml-">Wir bieten Ihnen ein umfassendes Spektrum an Versanddienstleistungen  </p>
-          <div className="flex gap-3 mt-6">
+          <p className="md:max-w-[200px] mt-4  text-white/70 text-center md:">Wir bieten Ihnen ein umfassendes Spektrum an Versanddienstleistungen  </p>
+          {/* <div className="flex gap-3 mt-6">
             {[FaFacebookF, FaXTwitter, FaInstagram, FaYoutube].map(
               (Icon, i) => (
                 <div
@@ -30,7 +30,7 @@ export default function Footer() {
                 </div>
               )
             )}
-          </div>
+          </div> */}
         </div>
 
         {/* Right Side: Newsletter + Links */}
@@ -130,14 +130,14 @@ export default function Footer() {
                 </span>
               </div>
 
-              <div className="flex items-center justify-start gap-3 group">
+              {/* <div className="flex items-center justify-start gap-3 group">
                 <div className="p-2 bg-blue-500/10 rounded-full group-hover:bg-blue-500/20 transition-colors">
                   <FaEnvelope size={18} className="text-white" />
                 </div>
                 <span className="text-gray-300 text-sm lg:text-base">
                   ----------@-------.de
                 </span>
-              </div>
+              </div> */}
             </div>
             </div>
           </div>

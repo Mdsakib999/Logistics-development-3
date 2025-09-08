@@ -14,13 +14,13 @@ import {
 } from "react-icons/fa";
 
 export const valueAddedServices = [
-  {
-    id: 1,
-    image: "/assets/Services/VAS/scanning.jpg",
-    icon: FaBarcode,
-    title: "Scannen",
-    desc: "Das Scannen der Fracht erfolgt gemäß Ihren Anforderungen.",
-  },
+  // {
+  //   id: 1,
+  //   image: "/assets/Services/VAS/scanning.jpg",
+  //   icon: FaBarcode,
+  //   title: "Scannen",
+  //   desc: "Das Scannen der Fracht erfolgt gemäß Ihren Anforderungen.",
+  // },
   {
     id: 2,
     image: "/assets/Services/VAS/quality-controls.jpg",
@@ -35,13 +35,13 @@ export const valueAddedServices = [
     title: "Umverpackung",
     desc: "Wir unterstützen Sie beim Verpacken oder Umpacken Ihrer Fracht nach Ihren Vorgaben.",
   },
-  {
-    id: 4,
-    image: "/assets/Services/VAS/cargo-sorting.jpg",
-    icon: FaSortAmountDown,
-    title: "Frachtsortierung",
-    desc: "Wir führen die Frachtsortierung nach Ihren Wünschen in unseren Anlagen durch.",
-  },
+  // {
+  //   id: 4,
+  //   image: "/assets/Services/VAS/cargo-sorting.jpg",
+  //   icon: FaSortAmountDown,
+  //   title: "Frachtsortierung",
+  //   desc: "Wir führen die Frachtsortierung nach Ihren Wünschen in unseren Anlagen durch.",
+  // },
   {
     id: 5,
     image: "/assets/Services/VAS/return-management.jpg",
@@ -63,13 +63,13 @@ export const valueAddedServices = [
     title: "Palettierung",
     desc: "Wir unterstützen Sie bei der Lagerung und dem Transport von auf Paletten gestapelter Fracht.",
   },
-  {
-    id: 8,
-    image: "/assets/Services/VAS/shaving.jpg",
-    icon: FaArrowsAltV,
-    title: "Paletten abtragen/auffüllen",
-    desc: " Die Höhe einer Palette wird durch Entfernen der oberen Kartonlagen angepasst.",
-  },
+  // {
+  //   id: 8,
+  //   image: "/assets/Services/VAS/shaving.jpg",
+  //   icon: FaArrowsAltV,
+  //   title: "Paletten abtragen/auffüllen",
+  //   desc: " Die Höhe einer Palette wird durch Entfernen der oberen Kartonlagen angepasst.",
+  // },
   {
     id: 9,
     image: "/assets/Services/VAS/labelling.jpg",
@@ -84,16 +84,16 @@ export const valueAddedServices = [
     title: "Lagerplatzmanagement",
     desc: "An unseren Standorten können LKW/Container auf dem Lagerplatz effektiv verwaltet werden.",
   },
-  {
-    id: 11,
-    image: "/assets/Services/VAS/garmnets.jpg",
-    icon: FaTshirt,
-    title: "Kleidungsstücke auf Kleiderbügeln",
-    desc: "Unsere Einrichtungen sind für die Handhabung hängender Kleidungsstücke auf Kleiderständern/Kleiderstangen ausgestattet.",
-  },
+  // {
+  //   id: 11,
+  //   image: "/assets/Services/VAS/customization.jpg ",
+  //   icon: FaTshirt,
+  //   title: "Kleidungsstücke auf Kleiderbügeln",
+  //   desc: "Unsere Einrichtungen sind für die Handhabung hängender Kleidungsstücke auf Kleiderständern/Kleiderstangen ausgestattet.",
+  // },
   {
     id: 12,
-    image: "/assets/Services/VAS/customization.jpg",
+    image: "/assets/Services/VAS/garmnets.jpg",
     icon: FaPuzzlePiece,
     title: "Produktanpassung",
     desc: "Mit unseren Individualisierungsservices können Sie Pakete genau nach Ihren Bedürfnissen zusammenstellen. ",
