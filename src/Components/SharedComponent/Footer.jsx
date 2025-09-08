@@ -17,7 +17,7 @@ export default function Footer() {
         {/* Left Side: Logo & Social */}
         <div className="flex flex-col items-center md:items-start">
           <img src={Logo} alt="Transit Logo" className="max-w-[200px]" />
-          <p className="md:max-w-[200px] mt-4 italic">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci reprehenderit minima  </p>
+          <p className="md:max-w-[200px] mt-4 italic ml-">Wir bieten Ihnen ein umfassendes Spektrum an Versanddienstleistungen  </p>
           <div className="flex gap-3 mt-6">
             {[FaFacebookF, FaXTwitter, FaInstagram, FaYoutube].map(
               (Icon, i) => (
@@ -69,11 +69,11 @@ export default function Footer() {
               </h3>
               <ul className="space-y-1 text-lg">
                 {[
-                  { label: "Home", to: "/" },
-                  { label: "About us", to: "/about" },
-                  { label: "Services", to: "/services" },
-                  { label: "Terms Privacy Policy", to: "/" },
-                  { label: "Contact", to: "/contact" },
+                  { label: "Heim", to: "/" },
+                  { label: "Über uns", to: "/about" },
+                  { label: "Dienstleistungen", to: "/services" },
+                  { label: "Datenschutzrichtlinie", to: "/datenschutzrichtlinie" },
+                  { label: "Kontakt", to: "/contact" },
                 ].map((link) => (
                   <li key={link.label}>
                     <NavLink
@@ -117,7 +117,7 @@ export default function Footer() {
                   <FaLocationDot size={18} className="text-white" />
                 </div>
                 <span className="text-gray-300 text-sm lg:text-base">
-                  Boschstr. 4, 67304 Eisenberg, Deutschland
+                  Keuperstr. 20, 73734 Esslingen, Deutschland
                 </span>
               </div>
 
@@ -135,7 +135,7 @@ export default function Footer() {
                   <FaEnvelope size={18} className="text-white" />
                 </div>
                 <span className="text-gray-300 text-sm lg:text-base">
-                  transport@bernhardlogistik.de
+                  ----------@-------.de
                 </span>
               </div>
             </div>

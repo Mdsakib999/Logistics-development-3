@@ -67,11 +67,11 @@ export default function Navbar() {
   };
 
   const menuItems = [
-    { name: "Home", path: "/" },
-    { name: "About Us", path: "/about" },
-    { name: "Service", path: "/services" },
+    { name: "Heim", path: "/" },
+    { name: "Über uns", path: "/about" },
+    { name: "Dienstleistungen", path: "/services" },
     // { name: "Pricing", path: "/pricing" },
-    { name: "Contact", path: "/contact" },
+    { name: "Kontakt", path: "/contact" },
     // { name: "Blogs", path: "/blog" },
   ];
 
@@ -123,7 +123,7 @@ export default function Navbar() {
 
             {/* Right: Icons + Button */}
             <div className="hidden lg:flex items-center gap-3">
-              <div className="flex items-center gap-3 text-white text-2xl">
+              {/* <div className="flex items-center gap-3 text-white text-2xl">
                 <span className="hover:text-[#e1306c] transition cursor-pointer">
                   <FaInstagram />
                 </span>
@@ -136,7 +136,7 @@ export default function Navbar() {
                 <span className="hover:text-[#0a66c2] transition cursor-pointer">
                   <FaLinkedinIn />
                 </span>
-              </div>
+              </div> */}
               <button className="ml-4 bg-white text-black font-medium px-4 py-1.5 rounded-sm hover:bg-secondary hover:text-white transition">
                 Request Quote
               </button>

@@ -46,8 +46,8 @@ export const AboutUs = () => {
 
         {/* Right Side Content */}
         <div className="space-y-5 lg:pl-6 text-center lg:text-left ">
-          <h2 className="text-3xl sm:text-4xl font-bold text-center">
-            Discover Transit: Your Logistics Partner
+          <h2 className="text-2xl md:text-3xl font-bold text-center lg:text-left">
+            Entdecken Sie Spedition Struckmeier : Ihr Logistikpartner
           </h2>
 
           <p className="text-sm sm:text-base text-black/70 leading-relaxed text-justify px-3 md:px-0">

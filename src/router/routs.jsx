@@ -8,6 +8,7 @@ import { About } from "../Pages/About";
 import { Contact } from "../Pages/Contact";
 import { Services } from "../Pages/Services";
 import { Pricing } from "../Pages/Pricing";
+import Datenschutzrichtlinie from "../Pages/Datenschutzrichtlinie";
 
 export const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
       {
         path: "/services",
         element: <Services />,
+      },
+      {
+        path: "/datenschutzrichtlinie",
+        element: <Datenschutzrichtlinie />,
       },
       // {
       //   path: "/pricing",
