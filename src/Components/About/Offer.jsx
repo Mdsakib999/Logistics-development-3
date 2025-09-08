@@ -7,19 +7,21 @@ export const Offer = () => {
         {/* Left Content */}
         <div className="flex-1">
           <h1 className="text-2xl md:text-3xl font-semibold mb-8 leading-snug">
-            We offer a comprehensive range of <br className="hidden md:block" />
-            shipping services to meet your <br className="hidden md:block" />
-            needs, including:
+            Wir bieten Ihnen ein umfassendes
+            <br className="hidden md:block" />
+            Angebot an Versanddienstleistungen,
+            <br className="hidden md:block" />
+            die Ihren Anforderungen gerecht werden, darunter:
           </h1>
 
           {/* Bullet List */}
           <ul className="space-y-4 mb-10">
             {[
-              "Domestic and international freight forwarding",
-              "Air and ocean cargo transportation",
-              "Warehousing and distribution",
-              "Customs clearance and brokerage",
-              "Logistics consulting and supply chain management",
+              "Nationale und internationale Spedition",
+              "Nationale und internationale Speditionn",
+              "Lagerung und Vertrieb",
+              "Zollabfertigung und Zollabwicklung",
+              "Logistikberatung und Supply Chain Management",
             ].map((item, index) => (
               <li key={index} className="flex items-start gap-3 text-gray-800">
                 <FaCheckCircle className="text-primary text-lg mt-1" />
@@ -39,8 +41,9 @@ export const Offer = () => {
             />
             <div className="w-px bg-gray-300" />
             <p className="text-sm text-gray-700 flex items-center max-w-md">
-              No matter the size or scope of your shipping requirements, we have
-              the resources and capabilities to get the job done right.
+              Unabhängig von der Größe oder dem Umfang Ihrer
+              Versandanforderungen verfügen wir über die Ressourcen und
+              Fähigkeiten, um die Arbeit richtig zu erledigen.
             </p>
           </div>
         </div>

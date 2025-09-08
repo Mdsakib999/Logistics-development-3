@@ -14,8 +14,8 @@ export const About = () => {
     <div>
       <PageBanner
         backgroundImage={AboutBannerImg}
-        heading="About Us"
-        title="Our Logistic Services"
+        heading="Über uns"
+        title="Unsere Logistikdienstleistungen"
       />
       <Offer />
       <Overview />

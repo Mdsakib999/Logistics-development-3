@@ -7,7 +7,7 @@ export const Solution = () => {
   return (
     <div className="px-4 md:px-8 lg:px-12 py-20 my-20 max-w-7xl mx-auto relative">
       {/* Heading */}
-      <HeadingInfo>Need Solutions?</HeadingInfo>
+      <HeadingInfo>Brauchen Sie Lösungen?</HeadingInfo>
 
       {/* Top-right Decorative Car Image */}
       <div className="absolute top-0 lg:top-30 right-0 lg:right-6">
@@ -24,14 +24,16 @@ export const Solution = () => {
         <div className="absolute z-10 w-64 h-72 md:w-96 md:h-96 right-0 md:-right-3 lg:right-0 bottom-0 md:-bottom-10 lg:w-full lg:min-h-[400px] max-w-[700px] bg-primary rounded py-10 px-8 flex justify-center items-center">
           <div className="text-white space-y-6 w-full lg:max-w-md">
             <div className="space-y-3">
-              <h1 className="lg:text-3xl font-bold">Logistic Solutions</h1>
+              <h1 className="lg:text-3xl font-bold">Logistiklösungen</h1>
               <p className="text-sm text-gray-300 leading-relaxed">
-                Providing an independent advice and identifying the right fit
-                for you. Services are sourced and procured based on solution
-                specifications provided by our Supply Chain Solution.
+                Wir bieten Ihnen eine unabhängige Beratung und ermitteln die
+                passende Lösung für Sie. Die Beschaffung und Beschaffung der
+                Services erfolgt auf Grundlage der von unserer Supply Chain
+                Solution bereitgestellten Lösungsspezifikationen.
               </p>
               <button className="text-yellow-400 flex items-center gap-2 text-md  transition-colors cursor-pointer mt-10">
-                Read more <FaLongArrowAltRight className="w-5 h-5" />
+                Mehr lessen
+                <FaLongArrowAltRight className="w-5 h-5" />
               </button>
             </div>
           </div>

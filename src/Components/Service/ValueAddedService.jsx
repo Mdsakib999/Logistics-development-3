@@ -5,14 +5,14 @@ export const ValueAddedService = () => {
   return (
     <div className="px-4 md:px-8  py-20 my-20 max-w-7xl mx-auto relative">
       {/* Heading */}
-      <HeadingInfo>Our Services</HeadingInfo>
+      <HeadingInfo> Unsere Leistungen</HeadingInfo>
       <h1 className="text-2xl md:text-3xl lg:text-4xl mt-10 mb-5 font-semibold">
-        Value added services
+        Mehrwertleistungen
       </h1>
       <p className="text-sm sm:text-base text-black/70 leading-relaxed max-w-2xl">
-        In combination to the order processing at our warehouses, you can
-        benefit from our extensive distribution network for product deliveries
-        to end customers.
+        Neben der Auftragsabwicklung in unseren Lagern profitieren Sie von
+        unserem umfangreichen Vertriebsnetz für die Produktlieferung an
+        Endkunden.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">

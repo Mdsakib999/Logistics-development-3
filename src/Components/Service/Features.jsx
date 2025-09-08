@@ -5,27 +5,27 @@ export const Features = () => {
   const menuItems = [
     {
       id: 1,
-      Title: "Warehousing Services",
-      desc: "Leading expert helps in reporting & visibility of cargo. Paired up with professionals responsible for supply chain.",
+      Title: "Lagerdienstleistungen",
+      desc: "Führende Experten unterstützen Sie bei der Berichterstattung und Transparenz Ihrer Fracht. In Zusammenarbeit mit den für die Lieferkette verantwortlichen Fachleuten.",
       img: "/assets/Services/warehouse.png",
     },
     {
       id: 2,
-      Title: "Safety & Quality",
-      desc: "Modern packaging, computerized controlled storage solutions are available to ensure the success of your business.",
+      Title: "Sicherheit & Qualität",
+      desc: "Moderne Verpackungslösungen und computergesteuerte Lagerlösungen sichern den Erfolg Ihres Unternehmens.",
       img: "/assets/Services/safety.png",
     },
     {
       id: 3,
-      Title: "Care for Environment",
-      desc: "As the leading regional carrier for the wine shipping industry, we provide a level of service that is superior to national carriers.",
+      Title: "Umweltschutz",
+      desc: "Als führender regionaler Spediteur für die Weintransportbranche bieten wir einen Service, der den nationalen Spediteuren überlegen ist.",
       img: "/assets/Services/care.png",
     },
   ];
 
   return (
     <div className="px-4 md:px-8 lg:px-12 py-12 max-w-7xl mx-auto  flex flex-col gap-5">
-      <HeadingInfo>Features</HeadingInfo>
+      <HeadingInfo>Merkmale</HeadingInfo>
       <div className="grid lg:grid-cols-2 gap-28 lg:gap-12 items-center mt-20 relative">
         {/* Left: Images and vertical text */}
         <div className="w-64 h-80 md:w-96 md:h-96 lg:w-80 lg:h-[28rem] rounded-xl overflow-hidden shadow-lg">

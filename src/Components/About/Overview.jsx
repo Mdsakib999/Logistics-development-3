@@ -3,21 +3,22 @@ import { HeadingInfo } from "../SharedComponent/HeadingInfo";
 import img1 from "/assets/About/truck.jpg";
 import img2 from "/assets/About/deliveryBoy.jpg";
 import { GradientButton } from "../SharedComponent/Button/GradientButton";
+import { Link } from "react-router-dom";
 
 export const Overview = () => {
   const [activeTab, setActiveTab] = useState("approach");
 
   const tabContent = {
     approach:
-      "We leverage our scale to create innovative and tailored solutions that help our customers optimize their supply chains to stay ahead of their competition in a market that changes every single day.",
-    goal: "Our goal is to become the leading logistics partner by delivering exceptional value through cutting-edge technology, sustainable practices, and unmatched customer service excellence.",
+      " Wir nutzen unsere Größe, um innovative und maßgeschneiderte Lösungen zu entwickeln, die unseren Kunden dabei helfen, ihre Lieferketten zu optimieren, damit sie in einem sich täglich verändernden Markt der Konkurrenz immer einen Schritt voraus sind.",
+    goal: "Unser Ziel ist es, der führende Logistikpartner zu werden, indem wir außergewöhnlichen Mehrwert durch modernste Technologie, nachhaltige Praktiken und unübertroffene Servicequalität bieten",
     mission:
-      "Our mission is to revolutionize global logistics by connecting businesses worldwide through reliable, efficient, and innovative transportation solutions that drive economic growth.",
+      "Unsere Mission ist es, die globale Logistik zu revolutionieren, indem wir Unternehmen weltweit durch zuverlässige, effiziente und innovative Transportlösungen verbinden, die das Wirtschaftswachstum fördern.",
   };
 
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-8 my-20">
-      <HeadingInfo>Overview</HeadingInfo>
+      <HeadingInfo>Überblick</HeadingInfo>
       <div className="grid lg:grid-cols-2 gap-28 lg:gap-12 items-center mt-20 relative">
         {/* Left: Images */}
         <div className="w-64 h-80 md:w-96 md:h-96 lg:w-4/5 lg:h-[28rem] rounded-xl overflow-hidden shadow-lg object-cover self-center">
@@ -32,15 +33,16 @@ export const Overview = () => {
         <div className="space-y-8">
           {/* Main Heading */}
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900">
-            Our Company Overview
+            Unser Firmenüberblick
           </h2>
 
           {/* Description */}
           <p className="text-gray-600 text-lg leading-relaxed">
-            Our global reach, deep industry knowledge, innovative technology,
-            and extensive transportation network have allowed us to bring the
-            latest learning to bear on our customers' unique challenges and
-            desires.
+            Dank unserer globalen Reichweite, unserer umfassenden
+            Branchenkenntnis, unserer innovativen Technologie und unseres
+            ausgedehnten Transportnetzwerks sind wir in der Lage, die neuesten
+            Erkenntnisse auf die individuellen Herausforderungen und Wünsche
+            unserer Kunden anzuwenden.
           </p>
 
           {/* Tab Navigation */}
@@ -54,7 +56,7 @@ export const Overview = () => {
                     : "border-transparent bg-gray-200 px-4 py-2 rounded"
                 }`}
               >
-                Our Approach
+                Unser Ansatz
               </button>
               <button
                 onClick={() => setActiveTab("goal")}
@@ -64,7 +66,7 @@ export const Overview = () => {
                     : "border-transparent bg-gray-200 px-4 py-2 rounded"
                 }`}
               >
-                Our Goal
+                Unser Ziel
               </button>
               <button
                 onClick={() => setActiveTab("mission")}
@@ -74,7 +76,7 @@ export const Overview = () => {
                     : "border-transparent bg-gray-200 px-4 py-2 rounded"
                 }`}
               >
-                Our Mission
+                Unsere Mission
               </button>
             </nav>
           </div>
@@ -87,9 +89,12 @@ export const Overview = () => {
           </div>
 
           {/* Learn More Button */}
-          <div className="pt-4">
-            <GradientButton>Learn More</GradientButton>
-          </div>
+          <Link to="/services">
+            {" "}
+            <div className="pt-4">
+              <GradientButton>Mehr erfahren</GradientButton>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
