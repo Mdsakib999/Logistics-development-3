@@ -19,7 +19,7 @@ export const About = () => {
       />
       <Offer />
       <Overview />
-      <ShortBrief />
+      {/* <ShortBrief /> */}
       <WhatWeDo />
       <WhyChooseUs />
       {/* <OurPartners /> */}

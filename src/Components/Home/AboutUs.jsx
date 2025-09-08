@@ -89,7 +89,7 @@ export const AboutUs = () => {
           </div>
 
           {/* Buttons */}
-          <div className="flex flex-col md:flex-row px-5 md:px-0 gap-6 pt-6 justify-center lg:justify-start">
+          <div className="flex pt-5 md:pt-10">
             <GradientButton>
               <Link to="/kontakt" className="flex items-center gap-2">
                 Kontakt
