@@ -18,7 +18,7 @@ export const PageBanner = ({
         {heading && <HeadingInfo>{heading}</HeadingInfo>}
         {title && (
           <div className="max-w-4xl my-7">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight">
+            <h1 className="xsm:text-2xl text-3xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight ">
               {title}
             </h1>
           </div>

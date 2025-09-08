@@ -71,7 +71,7 @@ export default function Navbar() {
     { name: "Über uns", path: "/ueber-uns" },
     { name: "Dienstleistungen", path: "/dienstleistungen" },
     // { name: "Pricing", path: "/pricing" },
-    { name: "Kontakt", path: "/kontakt" },
+    // { name: "Kontakt", path: "/kontakt" },
     // { name: "Blogs", path: "/blog" },
   ];
 
@@ -137,9 +137,11 @@ export default function Navbar() {
                   <FaLinkedinIn />
                 </span>
               </div> */}
-              <button className="ml-4 bg-white text-black font-medium px-4 py-1.5 rounded-sm hover:bg-secondary hover:text-white transition">
-                Request Quote
-              </button>
+              <Link to="/kontakt">
+                <button className="ml-4 bg-white text-black font-medium px-4 py-1.5 rounded-sm hover:bg-secondary hover:text-white transition">
+                  Kontakt
+                </button>
+              </Link>
             </div>
 
             {/* Mobile Menu Button */}
@@ -183,9 +185,11 @@ export default function Navbar() {
                 <FaXTwitter />
                 <FaLinkedinIn />
               </div>
-              <button className="bg-black text-white w-full py-2 mt-2">
-                Request Quote
-              </button>
+              <Link to={"/kontakt"}>
+                <button className="bg-black text-white w-full py-2 mt-2">
+                  Kontakt
+                </button>
+              </Link>
             </ul>
           )}
         </nav>

@@ -63,7 +63,7 @@ export default function Footer() {
         <div className="border-b border-white/20"></div>
 
         {/* Footer Links */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
           {/* Useful Links */}
           <div>
             <h3 className="font-semibold text-white mb-3 text-xl">
@@ -98,7 +98,7 @@ export default function Footer() {
           </div>
 
           {/* Working Hours */}
-          <div>
+          {/* <div>
             <h3 className="font-semibold text-white text-xl mb-3">
               Working Hours
             </h3>
@@ -107,7 +107,7 @@ export default function Footer() {
               <li>Saturday: 10:00 AM - 6:00 PM</li>
               <li>Sunday Closed</li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
           <div>
