@@ -30,15 +30,15 @@ const InfoBar = () => {
           </div> */}
 
           {/* Email */}
-          {/* <div className="flex items-center gap-2 sm:gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
             <div className="bg-tertiary rounded-full w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 flex items-center justify-center">
               <IoMdMail className="text-secondary w-4 h-4 sm:w-5 sm:h-5" />
             </div>
             <div className="leading-tight text-center sm:text-left">
               <p>Email</p>
-              <p>contact@transit.com</p>
+              <p>logistic@struck-meier.de</p>
             </div>
-          </div> */}
+          </div>
 
           {/* Phone */}
           <div className="flex items-center gap-2 sm:gap-3">

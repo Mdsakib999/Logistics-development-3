@@ -25,7 +25,7 @@ const Datenschutzrichtlinie = () => {
 						+4915679697580
 					</a>
 					<br />
-					<strong>E-Mail: </strong> 
+					<strong>E-Mail: </strong> logistic@struck-meier.de
 				</p>
 				<h2 className="text-lg sm:text-xl md:text-2xl font-semibold mt-4 mb-2">
 					Vertretungsberechtigter
@@ -83,7 +83,7 @@ const Datenschutzrichtlinie = () => {
 						+4915679697580
 					</a>
 					<br />
-					<strong>E-Mail:</strong> 
+					<strong>E-Mail:</strong> logistic@struck-meier.de
 					<br />
 				</p>
 				<h2 className="text-2xl sm:text-3xl md:text-3xl font-semibold mt-4 mb-2">

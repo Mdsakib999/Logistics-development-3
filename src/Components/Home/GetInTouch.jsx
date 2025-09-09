@@ -166,12 +166,12 @@ export const GetInTouch = () => {
                 </span>
               </div>
 
-              {/* <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
                   <FaEnvelope className="text-white text-sm" />
                 </div>
-                <span className="text-gray-600">office@moovit.com</span>
-              </div> */}
+                <span className="text-gray-600">logistic@struck-meier.de</span>
+              </div>
 
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">

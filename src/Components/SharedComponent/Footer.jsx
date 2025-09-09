@@ -136,14 +136,14 @@ export default function Footer() {
                 </span>
               </div>
 
-              {/* <div className="flex items-center justify-start gap-3 group">
+              <div className="flex items-center justify-start gap-3 group">
                 <div className="p-2 bg-blue-500/10 rounded-full group-hover:bg-blue-500/20 transition-colors">
                   <FaEnvelope size={18} className="text-white" />
                 </div>
                 <span className="text-gray-300 text-sm lg:text-base">
-                  ----------@-------.de
+                  logistic@struck-meier.de
                 </span>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
