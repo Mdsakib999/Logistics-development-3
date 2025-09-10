@@ -141,7 +141,7 @@ export default function Footer() {
                   <FaEnvelope size={18} className="text-white" />
                 </div>
                 <span className="text-gray-300 text-sm lg:text-base">
-                  logistic@struck-meier.de
+                  logistik@struck-meier.de
                 </span>
               </div>
             </div>

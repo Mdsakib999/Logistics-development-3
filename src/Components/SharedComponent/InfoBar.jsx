@@ -36,7 +36,7 @@ const InfoBar = () => {
             </div>
             <div className="leading-tight text-center sm:text-left">
               <p>Email</p>
-              <p>logistic@struck-meier.de</p>
+              <p>logistik@struck-meier.de</p>
             </div>
           </div>
 
