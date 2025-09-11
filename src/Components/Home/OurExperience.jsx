@@ -45,7 +45,7 @@ export const OurExperience = () => {
                 <p className="text-md font-light text-gray-500">
                   Rufen Sie uns an
                 </p>
-                <p className="text-md font-semibold">+49 15679697580</p>
+                <p className="text-md font-semibold">+49 15679702744</p>
               </div>
             </div>
 

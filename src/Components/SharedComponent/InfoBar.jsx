@@ -47,7 +47,7 @@ const InfoBar = () => {
             </div>
             <div className="leading-tight text-center sm:text-left">
               <p>Call Us</p>
-              <p>+49 15679697580</p>
+              <p>+49 15679702744</p>
             </div>
           </div>
         </div>

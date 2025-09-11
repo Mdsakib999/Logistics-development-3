@@ -13,7 +13,7 @@ export const ContactInfo = () => {
     {
       id: 2,
       title: "Rufen Sie uns an",
-      description: `+49 15679697580`,
+      description: `+49 15679702744`,
       icon: <FaPhoneAlt />,
     },
   ];

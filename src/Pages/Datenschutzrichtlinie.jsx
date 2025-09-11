@@ -21,8 +21,8 @@ const Datenschutzrichtlinie = () => {
 				</p>
 				<p className="mb-2 text-base sm:text-lg">
 					<strong>Telefon: </strong>{" "}
-					<a href="tel:+4915679697580" className="">
-						+4915679697580
+					<a href="tel:+4915679702744" className="">
+						+49 15679702744
 					</a>
 					<br />
 					<strong>E-Mail: </strong> logistik@struck-meier.de
@@ -79,8 +79,8 @@ const Datenschutzrichtlinie = () => {
 					Keuperstr. 20, 73734 Esslingen, Deutschland
 					<br />
 					<strong>Telefon:</strong>{" "}
-					<a href="tel:+4915679697580" className="">
-						+4915679697580
+					<a href="tel:+4915679702744" className="">
+						+49 15679702744
 					</a>
 					<br />
 					<strong>E-Mail:</strong> logistik@struck-meier.de

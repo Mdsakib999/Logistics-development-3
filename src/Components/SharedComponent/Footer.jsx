@@ -114,7 +114,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-1 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full"></div>
               <h3 className="text-xl lg:text-xl font-bold text-white">
-                FOLGE UNS
+                Folge Uns
               </h3>
             </div>
             <div className="space-y-3 w-full">
@@ -132,7 +132,7 @@ export default function Footer() {
                   <FaPhone size={18} className="text-white" />
                 </div>
                 <span className="text-gray-300 text-sm lg:text-base">
-                  +4915679697580
+                  +49 15679702744
                 </span>
               </div>
 
@@ -153,7 +153,7 @@ export default function Footer() {
       <div className="border-t border-white/20 text-white/60 text-xs py-4">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-center items-center gap-2 text-center sm:text-left">
           <p className="cursor-default text-white/60 hover:text-white">
-            © 2025 Spedition Struckmeier || All rights reserved
+            © 2025 Spedition Struckmeier || All rights reserved.
           </p>
         </div>
       </div>
