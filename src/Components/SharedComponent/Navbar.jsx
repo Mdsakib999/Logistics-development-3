@@ -67,7 +67,7 @@ export default function Navbar() {
   };
 
   const menuItems = [
-    { name: "Heim", path: "/" },
+    { name: "Startseite", path: "/" },
     { name: "Über uns", path: "/ueber-uns" },
     { name: "Dienstleistungen", path: "/dienstleistungen" },
     { name: "Impressum", path: "/datenschutzrichtlinie" },

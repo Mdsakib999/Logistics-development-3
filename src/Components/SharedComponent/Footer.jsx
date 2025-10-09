@@ -67,11 +67,11 @@ export default function Footer() {
           {/* Useful Links */}
           <div>
             <h3 className="font-semibold text-white mb-3 text-xl">
-              Useful Links
+              Schnellzugriff
             </h3>
             <ul className="space-y-1 text-lg">
               {[
-                { label: "Heim", to: "/" },
+                { label: "Startseite", to: "/" },
                 { label: "Über uns", to: "/ueber-uns" },
                 { label: "Dienstleistungen", to: "/dienstleistungen" },
                 // {
@@ -118,7 +118,7 @@ export default function Footer() {
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-1 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full"></div>
               <h3 className="text-xl lg:text-xl font-bold text-white">
-                Folge Uns
+                Kontakt
               </h3>
             </div>
             <div className="space-y-3 w-full">
