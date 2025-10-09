@@ -70,6 +70,7 @@ export default function Navbar() {
     { name: "Heim", path: "/" },
     { name: "Über uns", path: "/ueber-uns" },
     { name: "Dienstleistungen", path: "/dienstleistungen" },
+    { name: "Impressum", path: "/datenschutzrichtlinie" },
     // { name: "Pricing", path: "/pricing" },
     // { name: "Kontakt", path: "/kontakt" },
     // { name: "Blogs", path: "/blog" },
@@ -179,14 +180,14 @@ export default function Navbar() {
                   </NavLink>
                 </li>
               ))}
-              <div className="flex justify-center gap-3 text-xl text-gray-700">
+              {/* <div className="flex justify-center gap-3 text-xl text-gray-700">
                 <FaInstagram />
                 <FaFacebook />
                 <FaXTwitter />
                 <FaLinkedinIn />
-              </div>
+              </div> */}
               <Link to={"/kontakt"}>
-                <button className="bg-black text-white w-full py-2 mt-2">
+                <button className="bg-black text-white hover:text-yellow-400 w-full py-2 mt-2">
                   Kontakt
                 </button>
               </Link>

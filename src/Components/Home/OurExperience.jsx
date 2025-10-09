@@ -39,7 +39,7 @@ export const OurExperience = () => {
           </h2>
 
           <div className="flex justify-between items-center flex-wrap gap-4">
-            <div className="flex items-center gap-4">
+            {/* <div className="flex items-center gap-4">
               <SlEarphonesAlt className="w-10 h-10 text-[#172A5B]" />
               <div>
                 <p className="text-md font-light text-gray-500">
@@ -47,7 +47,7 @@ export const OurExperience = () => {
                 </p>
                 <p className="text-md font-semibold">+49 15679702744</p>
               </div>
-            </div>
+            </div> */}
 
             <GradientButton>
               <Link to="/ueber-uns" className="flex items-center gap-1">

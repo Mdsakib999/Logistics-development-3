@@ -74,8 +74,12 @@ export default function Footer() {
                 { label: "Heim", to: "/" },
                 { label: "Über uns", to: "/ueber-uns" },
                 { label: "Dienstleistungen", to: "/dienstleistungen" },
+                // {
+                //   label: "Datenschutzrichtlinie",
+                //   to: "/datenschutzrichtlinie",
+                // },
                 {
-                  label: "Datenschutzrichtlinie",
+                  label: "Impressum",
                   to: "/datenschutzrichtlinie",
                 },
                 { label: "Kontakt", to: "/kontakt" },
@@ -122,27 +126,30 @@ export default function Footer() {
                 <div className="p-2 bg-blue-500/10 rounded-full group-hover:bg-blue-500/20 transition-colors">
                   <FaLocationDot size={18} className="text-white" />
                 </div>
-                <span className="text-gray-300 text-sm lg:text-base">
+                <span className="text-gray-300 text-sm lg:text-base hover:text-yellow-400">
                   Keuperstr. 20, 73734 Esslingen, Deutschland
                 </span>
               </div>
 
-              <div className="flex items-center justify-start gap-3 group">
+              {/* <div className="flex items-center justify-start gap-3 group">
                 <div className="p-2 bg-blue-500/10 rounded-full group-hover:bg-blue-500/20 transition-colors">
                   <FaPhone size={18} className="text-white" />
                 </div>
-                <span className="text-gray-300 text-sm lg:text-base">
+                <span className="text-gray-300 text-sm lg:text-base hover:text-yellow-400">
                   +49 15679702744
                 </span>
-              </div>
+              </div> */}
 
               <div className="flex items-center justify-start gap-3 group">
                 <div className="p-2 bg-blue-500/10 rounded-full group-hover:bg-blue-500/20 transition-colors">
                   <FaEnvelope size={18} className="text-white" />
                 </div>
-                <span className="text-gray-300 text-sm lg:text-base">
+                <a
+                  href="mailto:logistik@struck-meier.de"
+                  className="text-gray-300 hover:text-yellow-400 transition-colors duration-200"
+                >
                   logistik@struck-meier.de
-                </span>
+                </a>
               </div>
             </div>
           </div>

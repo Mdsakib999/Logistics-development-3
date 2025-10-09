@@ -62,7 +62,7 @@ export const GetInTouch = () => {
                 />
               </div>
 
-             <div>
+              <div>
                 <input
                   type="email"
                   name="email"
@@ -73,7 +73,6 @@ export const GetInTouch = () => {
                   className="w-full px-4 py-3 bg-gray-100 border-none rounded-md placeholder-gray-600 focus:outline-none focus:ring-1 focus:ring-primary"
                 />
               </div>
-
             </div>
 
             {/* Second Row */}
@@ -107,7 +106,6 @@ export const GetInTouch = () => {
             </div>
 
             {/* Third Row */}
-
 
             {/* Topic */}
             <div>
@@ -148,14 +146,16 @@ export const GetInTouch = () => {
               Wir kümmern uns um den Transport Ihres Unternehmens.
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              <span className="font-bold">Spedition Struckmeier</span> verfügt über Erfahrung in der Abwicklung der für Ihre Importe und Exporte erforderlichen Formalitäten und Dokumente. Wir arbeiten mit allen internationalen Stationen zusammen, um sicherzustellen, dass Ihre Ladung sicher und ohne Verzögerungen ankommt.
-
+              <span className="font-bold">Spedition Struckmeier</span> verfügt
+              über Erfahrung in der Abwicklung der für Ihre Importe und Exporte
+              erforderlichen Formalitäten und Dokumente. Wir arbeiten mit allen
+              internationalen Stationen zusammen, um sicherzustellen, dass Ihre
+              Ladung sicher und ohne Verzögerungen ankommt.
             </p>
           </div>
 
           {/* Contact Information */}
           <div>
-
             <div className="flex flex-col gap-4 md:gap-6">
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
@@ -170,15 +170,20 @@ export const GetInTouch = () => {
                 <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
                   <FaEnvelope className="text-white text-sm" />
                 </div>
-                <span className="text-gray-600">logistik@struck-meier.de</span>
+                <a
+                  href="mailto:logistik@struck-meier.de"
+                  className="text-gray-600 hover:text-yellow-500 transition-colors duration-200"
+                >
+                  logistik@struck-meier.de
+                </a>
               </div>
 
-              <div className="flex items-center gap-3">
+              {/* <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
                   <FaPhone className="text-white text-sm" />
                 </div>
                 <span className="text-gray-600">+49 15679702744</span>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -206,8 +211,6 @@ export const GetInTouch = () => {
               <span className="text-sm">LinkedIn</span>
             </a>
           </div> */}
-
-
         </div>
       </div>
     </div>

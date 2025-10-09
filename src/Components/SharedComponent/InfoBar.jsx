@@ -36,12 +36,17 @@ const InfoBar = () => {
             </div>
             <div className="leading-tight text-center sm:text-left">
               <p>Email</p>
-              <p>logistik@struck-meier.de</p>
+              <a
+                  href="mailto:logistik@struck-meier.de"
+                  className="text-gray-100 hover:text-yellow-400 transition-colors duration-200"
+                >
+                  logistik@struck-meier.de
+                </a>
             </div>
           </div>
 
           {/* Phone */}
-          <div className="flex items-center gap-2 sm:gap-3">
+          {/* <div className="flex items-center gap-2 sm:gap-3">
             <div className="bg-tertiary rounded-full w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 flex items-center justify-center">
               <FaPhoneAlt className="text-secondary w-4 h-4 sm:w-5 sm:h-5" />
             </div>
@@ -49,7 +54,7 @@ const InfoBar = () => {
               <p>Call Us</p>
               <p>+49 15679702744</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

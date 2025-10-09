@@ -12,9 +12,9 @@ export const ContactInfo = () => {
     },
     {
       id: 2,
-      title: "Rufen Sie uns an",
-      description: `+49 15679702744`,
-      icon: <FaPhoneAlt />,
+      title: "Mailen Sie uns",
+      description: `logistik@struck-meier.de`,
+      icon: <IoMailUnreadSharp />,
     },
   ];
 
