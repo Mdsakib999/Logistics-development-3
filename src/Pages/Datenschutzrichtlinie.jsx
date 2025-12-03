@@ -31,7 +31,7 @@ const Datenschutzrichtlinie = () => {
 					Vertretungsberechtigter
 				</h2>
 				<p className="mb-2 text-base sm:text-lg">
-					Geschäftsführer: RAFAL BURY
+					Inhaber: RAFAL BURY
 				</p>
 
 

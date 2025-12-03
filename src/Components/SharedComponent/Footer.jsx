@@ -78,11 +78,11 @@ export default function Footer() {
                 //   label: "Datenschutzrichtlinie",
                 //   to: "/datenschutzrichtlinie",
                 // },
+                { label: "Kontakt", to: "/kontakt" },
                 {
                   label: "Impressum",
                   to: "/datenschutzrichtlinie",
                 },
-                { label: "Kontakt", to: "/kontakt" },
               ].map((link) => (
                 <li key={link.label}>
                   <NavLink
@@ -160,7 +160,7 @@ export default function Footer() {
       <div className="border-t border-white/20 text-white/60 text-xs py-4">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-center items-center gap-2 text-center sm:text-left">
           <p className="cursor-default text-white/60 hover:text-white">
-            © 2025 Spedition Struckmeier || All rights reserved.
+            © 2025 Spedition Struckmeier || Alle Rechte vorbehalten.
           </p>
         </div>
       </div>
